@@ -2,7 +2,7 @@ name:                geek-calendar
 version:             0.1.0.0
 -- synopsis:
 -- description:
-homepage:            https://github.com/KommuSoft/geek-calendar#readme
+homepage:            https://github.com/HaPyTeX/geek-calendar#readme
 license:             BSD3
 license-file:        LICENSE
 author:              Willem Van Onsem
@@ -16,7 +16,12 @@ extra-source-files:  README.md
 executable geek-calendar
   hs-source-dirs:      src
   main-is:             Main.hs
+  other-modules:
+      Geek.Data
   default-language:    Haskell2010
   build-depends:
       base >=4.7 && <5
     , HaTeX >=3.20
+    , network-uri >=2.6.3
+    , time >=1.9
+    , text >=1.2.4
