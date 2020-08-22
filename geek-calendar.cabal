@@ -21,7 +21,9 @@ executable geek-calendar
   default-language:    Haskell2010
   build-depends:
       base >=4.7 && <5
+    , data-default >=0.2
     , HaTeX >=3.20
+    , iCalendar
     , network-uri >=2.6.3
     , time >=1.9
     , text >=1.2.4
