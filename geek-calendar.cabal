@@ -22,6 +22,7 @@ executable geek-calendar
   default-language:    Haskell2010
   build-depends:
       base >=4.7 && <5
+    , blaze-html
     , bytestring >=0.9
     , containers
     , data-default >=0.2

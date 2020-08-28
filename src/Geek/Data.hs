@@ -16,10 +16,13 @@ import Data.Time.Clock(UTCTime(UTCTime))
 
 import Network.URI(URI, parseURI)
 
+import Text.Blaze.Html(Html, toHtml)
+import Text.Blaze.Html5(b, i)
+import Text.Blaze.Html.Renderer.Text(renderHtml)
 import Text.ICalendar.Types(
-    Categories(Categories), Comment(Comment), Created(Created), Date, DateTime, DTStamp(DTStamp), EventStatus(ConfirmedEvent), FBType(Free), Frequency(Yearly)
-  , Language(Language), LastModified(LastModified), RRule(RRule), Recur(Recur), Summary(Summary), TimeTransparency(Transparent), UID(UID), URL(URL)
-  , VCalendar(vcEvents)
+    Categories(Categories), Comment(Comment), Created(Created), Date, DateTime, Description(Description), DTStamp(DTStamp), EventStatus(ConfirmedEvent)
+  , FBType(Free), Frequency(Yearly), Language(Language), LastModified(LastModified), RRule(RRule), Recur(Recur), Summary(Summary), TimeTransparency(Transparent)
+  , UID(UID), URL(URL), VCalendar(vcEvents)
   , VEvent(
       VEvent, veAlarms, veAttach, veAttendee, veCategories, veClass, veComment, veContact, veCreated, veDescription, veDTEndDuration, veDTStamp
     , veDTStart, veExDate, veGeo, veLastMod, veLocation, veOrganizer, veOther, vePriority, veRDate, veRecurId, veRelated, veResources, veRRule
@@ -55,6 +58,11 @@ data GeekEvent
   = GeekEvent { event :: Event, julian :: Bool, links :: [URI], notes :: Text }
   deriving (Eq, Ord, Show)
 
+class Describe a where
+    describe' :: a -> Html
+    describe :: a -> L.Text
+    describe = renderHtml . describe'
+
 class ToRecur a where
     toRecur :: a -> Recur
     toRRule :: a -> RRule
@@ -76,6 +84,41 @@ class ToSummary a where
     toSummary :: a -> Summary
     toSummary x = Summary (fromStrict (toSummary' x)) Nothing _language def
 
+ordinal :: Integral i => i -> Text
+ordinal n = go' (mod n 10)
+    where go' 1 = "st"
+          go' 2 = "nd"
+          go' 3 = "rd"
+          go' _ = "th"
+
+monthName :: Int -> Text
+monthName 1 = "January"
+monthName 2 = "February"
+monthName 3 = "March"
+monthName 4 = "April"
+monthName 5 = "May"
+monthName 6 = "June"
+monthName 7 = "July"
+monthName 8 = "August"
+monthName 9 = "September"
+monthName 10 = "October"
+monthName 11 = "November"
+monthName 12 = "December"
+monthName _ = error "The month name does not exists."
+
+instance Describe Day where
+    describe' dy = toHtml (monthName m <> " " <> pack (show d) <> ordinal d <> ", " <> pack (show y))
+        where (y, m, d) = toGregorian dy
+
+instance Describe FixedDay where
+    describe' (FixedDay d) = b (describe' d)
+
+instance Describe Event where
+    describe' Birthday { person=p, birthDay=bd } = describe' bd <> ": " <> i (toHtml (toPossessive p)) <> "birthday"
+
+instance Describe GeekEvent where
+    describe' GeekEvent { event=ev } = describe' ev
+
 instance ToRecur FixedDay where
     toRecur (FixedDay d) = Recur Yearly Nothing 1 [] [] [] [] [] [] [] [] [] Monday
     startTime' (FixedDay d) = UTCTime d 0
@@ -95,7 +138,7 @@ instance ToCategories GeekEvent where
     toCategories GeekEvent { event=e } = toCategories e
 
 instance ToSummary Event where
-    toSummary' Birthday { person=p } = toPossessive p <> " Birthday"
+    toSummary' Birthday { person=p } = toPossessive p <> " Birthday \x1f382"
 
 instance ToSummary GeekEvent where
     toSummary' GeekEvent { event=e } = toSummary' e
@@ -140,7 +183,7 @@ toEvent utc (g@GeekEvent { links=l }) = ((fromStrict (toUniqueIdentifier' g), No
   , veDTEndDuration=Nothing
   , veDTStart=Nothing
   , veDTStamp=startTime g
-  , veDescription=Nothing  -- TODO: add description!
+  , veDescription=Just (Description (describe g) Nothing _language def)  -- TODO: add description!
   , veExDate=empty
   , veGeo=Nothing  -- TODO: can be spec'ed
   , veLastMod=Just (LastModified utc def)
