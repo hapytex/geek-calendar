@@ -9,7 +9,7 @@ import Data.Maybe(catMaybes, mapMaybe)
 import Data.Text(Text, pack, strip)
 import Data.Time.Calendar(Day, fromGregorianValid)
 
-import Geek.Data(Event(Birthday), FixedDay(FixedDay), GeekEvent(GeekEvent))
+import Geek.Data(Event(Birthday), FixedDay(FixedDay), GeekEvent(GeekEvent), Markdown(Markdown))
 
 import Network.URI(URI, parseURI)
 
@@ -39,8 +39,20 @@ parseDayFromFilename' fn
 wrapGeekEvent :: FilePath -> Event -> IO GeekEvent
 wrapGeekEvent fp e = GeekEvent e <$> doesFileExist (fp </> "julian") <*> parseUrls fp <*> parseNotes fp
 
+parseFile :: FilePath -> FilePath -> FilePath -> IO Text
+parseFile nm root fp = (strip . pack) <$> readFile (root </> fp </> nm)
+
+parseToMaybe :: FilePath -> FilePath -> FilePath -> IO (Maybe Text)
+parseToMaybe nm root fp = catchWithNothing (Just <$> parseFile nm root fp)
+
+parseToEmpty :: FilePath -> FilePath -> FilePath -> IO Text
+parseToEmpty nm root fp = catchWithDefault "" (parseFile nm root fp)
+
 parseName :: FilePath -> FilePath -> IO (Maybe Text)
-parseName root fp = catchWithNothing ((Just . strip . pack) <$> readFile (root </> fp </> "name"))
+parseName = parseToMaybe "name"
+
+parseBio :: FilePath -> FilePath -> IO Text
+parseBio = parseToEmpty "bio.md"
 
 parseUrls :: FilePath -> IO [URI]
 parseUrls fp = catchWithDefault [] (mapMaybe parseURI . lines <$> readFile (fp </> "links"))
@@ -56,7 +68,8 @@ wrapingGeekEvent f r n = f n >>= g (wrapGeekEvent (r </> n))
 parseBirthday :: FilePath -> IO (Maybe Event)
 parseBirthday fn = do
     name <- parseName "birthdays" fn
-    pure (Birthday <$> name <*> fmap FixedDay (parseDayFromFilename fn) <*> pure Nothing)
+    bio <- Markdown <$> parseBio "birthdays" fn
+    pure (Birthday <$> name <*> fmap FixedDay (parseDayFromFilename fn) <*> pure Nothing <*> pure bio)
 
 parseBirthdays :: IO [GeekEvent]
 parseBirthdays = do

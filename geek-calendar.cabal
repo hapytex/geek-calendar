@@ -30,6 +30,7 @@ executable geek-calendar
     , filepath >=1.0
     , HaTeX >=3.20
     , iCalendar
+    , markdown
     , network-uri >=2.6.3
     , split >=0.1
     , time >=1.9

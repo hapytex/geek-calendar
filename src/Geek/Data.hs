@@ -20,9 +20,9 @@ import Text.Blaze.Html(Html, toHtml)
 import Text.Blaze.Html5(b, i)
 import Text.Blaze.Html.Renderer.Text(renderHtml)
 import Text.ICalendar.Types(
-    Categories(Categories), Comment(Comment), Created(Created), Date, DateTime, Description(Description), DTStamp(DTStamp), EventStatus(ConfirmedEvent)
-  , FBType(Free), Frequency(Yearly), Language(Language), LastModified(LastModified), RRule(RRule), Recur(Recur), Summary(Summary), TimeTransparency(Transparent)
-  , UID(UID), URL(URL), VCalendar(vcEvents)
+    Categories(Categories), Comment(Comment), Created(Created), Date(Date), DateTime(UTCDateTime), Description(Description), DTStamp(DTStamp)
+  , DTStart(DTStartDate, DTStartDateTime), EventStatus(ConfirmedEvent), FBType(Free), Frequency(Yearly), Language(Language), LastModified(LastModified)
+  , RRule(RRule), Recur(Recur), Summary(Summary), TimeTransparency(Transparent), UID(UID), URL(URL), VCalendar(vcEvents)
   , VEvent(
       VEvent, veAlarms, veAttach, veAttendee, veCategories, veClass, veComment, veContact, veCreated, veDescription, veDTEndDuration, veDTStamp
     , veDTStart, veExDate, veGeo, veLastMod, veLocation, veOrganizer, veOther, vePriority, veRDate, veRecurId, veRelated, veResources, veRRule
@@ -30,6 +30,7 @@ import Text.ICalendar.Types(
     )
   , Weekday(Monday)
   )
+import Text.Markdown(markdown)
 
 _fbType :: FBType
 _fbType = Free
@@ -49,9 +50,10 @@ toPossessive t
     | otherwise = t <> "'s"
 
 newtype FixedDay = FixedDay Day deriving (Eq, Ord, Show)
+newtype Markdown = Markdown Text deriving (Eq, Ord, Show)
 
 data Event
-  = Birthday { person :: Text, birthDay :: FixedDay, deathday :: Maybe Day }  -- birthday is the event
+  = Birthday { person :: Text, birthDay :: FixedDay, deathday :: Maybe Day, bio :: Markdown }  -- birthday is the event
   deriving (Eq, Ord, Show)
 
 data GeekEvent
@@ -70,6 +72,8 @@ class ToRecur a where
     startTime' :: a -> UTCTime
     startTime :: a -> DTStamp
     startTime = (`DTStamp` def) . startTime'
+    dtStart :: a -> DTStart
+    dtStart = (`DTStartDateTime` def) . UTCDateTime . startTime'
 
 class ToCategories a where
     toCategories :: a -> [Text]
@@ -114,22 +118,28 @@ instance Describe FixedDay where
     describe' (FixedDay d) = b (describe' d)
 
 instance Describe Event where
-    describe' Birthday { person=p, birthDay=bd } = describe' bd <> ": " <> i (toHtml (toPossessive p)) <> "birthday"
+    describe' Birthday { person=p, birthDay=bd, bio=bio } = describe' bd <> ": " <> i (toHtml (toPossessive p)) <> " birthday." <> describe' bio
 
 instance Describe GeekEvent where
     describe' GeekEvent { event=ev } = describe' ev
 
+instance Describe Markdown where
+    describe' (Markdown md) = markdown def (fromStrict md)
+
 instance ToRecur FixedDay where
     toRecur (FixedDay d) = Recur Yearly Nothing 1 [] [] [] [] [] [] [] [] [] Monday
     startTime' (FixedDay d) = UTCTime d 0
+    dtStart (FixedDay d) = DTStartDate (Date d) def
 
 instance ToRecur Event where
     toRecur Birthday { birthDay=bd } = toRecur bd
     startTime' Birthday { birthDay=bd } = startTime' bd
+    dtStart Birthday { birthDay=bd } = dtStart bd
 
 instance ToRecur GeekEvent where
     toRecur GeekEvent {event=ev} = toRecur ev
     startTime' GeekEvent {event=ev} = startTime' ev
+    dtStart GeekEvent {event=ev} = dtStart ev
 
 instance ToCategories Event where
     toCategories Birthday { person=p } = [p, "birthday"]
@@ -181,7 +191,7 @@ toEvent utc (g@GeekEvent { links=l }) = ((fromStrict (toUniqueIdentifier' g), No
   , veContact=empty
   , veCreated=Just (Created utc def)
   , veDTEndDuration=Nothing
-  , veDTStart=Nothing
+  , veDTStart=Just (dtStart g)
   , veDTStamp=startTime g
   , veDescription=Just (Description (describe g) Nothing _language def)  -- TODO: add description!
   , veExDate=empty
