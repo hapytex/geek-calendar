@@ -140,7 +140,7 @@ instance Describe Event where
     describe' Birthday { person=p, birthDay=bd, bio=bio } = describe' bd <> ": " <> i (toHtml (toPossessive p)) <> " Birthday." <> describe' bio
 
 instance Describe GeekEvent where
-    describe' (g@GeekEvent { event=ev }) = describe' ev <> footnotes g
+    describe' (g@GeekEvent { event=ev, links=urls }) = describe' ev <> footnotes g
 
 instance Describe Markdown where
     describe' (Markdown md) = markdown def (fromStrict md)
