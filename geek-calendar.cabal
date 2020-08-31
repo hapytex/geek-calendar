@@ -23,6 +23,7 @@ executable geek-calendar
   build-depends:
       base >=4.7 && <5
     , blaze-html
+    , blaze-markup
     , bytestring >=0.9
     , containers
     , data-default >=0.2

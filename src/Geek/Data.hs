@@ -12,13 +12,15 @@ import qualified Data.Text as T
 import Data.Text.Lazy(fromStrict)
 import qualified Data.Text.Lazy as L
 import Data.Time.Calendar(Day, toGregorian)
+import Data.Time.Calendar.Julian(toJulian)
 import Data.Time.Clock(UTCTime(UTCTime))
 
 import Network.URI(URI, parseURI)
 
 import Text.Blaze.Html(Html, toHtml)
-import Text.Blaze.Html5(b, i)
 import Text.Blaze.Html.Renderer.Text(renderHtml)
+import Text.Blaze.Html5(b, i)
+import Text.Blaze.Internal(MarkupM(Parent))
 import Text.ICalendar.Types(
     Categories(Categories), Comment(Comment), Created(Created), Date(Date), DateTime(UTCDateTime), Description(Description), DTStamp(DTStamp)
   , DTStart(DTStartDate, DTStartDateTime), EventStatus(ConfirmedEvent), FBType(Free), Frequency(Yearly), Language(Language), LastModified(LastModified)
@@ -65,6 +67,12 @@ class Describe a where
     describe :: a -> L.Text
     describe = renderHtml . describe'
 
+class Footnotes a where
+    footnotes' :: a -> [Text]
+    footnotes' = const []
+    footnotes :: a -> Html
+    footnotes = foldr (<>) "" . map (Parent "fn" "<fn" "</fn>" . toHtml) . footnotes'
+
 class ToRecur a where
     toRecur :: a -> Recur
     toRRule :: a -> RRule
@@ -85,8 +93,12 @@ class ToUniqueIdentifier a where
 
 class ToSummary a where
     toSummary' :: a -> Text
+    toEmoji :: a -> [Text]
+    toEmoji = const []
     toSummary :: a -> Summary
-    toSummary x = Summary (fromStrict (toSummary' x)) Nothing _language def
+    toSummary x = Summary (fromStrict (toSummary' x <> ems)) Nothing _language def
+        where ems | xa@(_:_) <- toEmoji x = " " <> T.concat xa
+                  | otherwise = ""
 
 ordinal :: Integral i => i -> Text
 ordinal n = go' (mod n 10)
@@ -110,21 +122,33 @@ monthName 11 = "November"
 monthName 12 = "December"
 monthName _ = error "The month name does not exists."
 
+formatDate :: Integer -> Int -> Int -> Text
+formatDate y m d = monthName m <> " " <> pack (show d) <> ordinal d <> ", " <> pack (show y)
+
+julianNote :: Text -> Day -> Text
+julianNote nm dy = "At the time of " <> nm <> ", the Julian calendar was in place, and the date was " <> formatDate y m d
+    where (y, m, d) = toJulian dy
+
 instance Describe Day where
-    describe' dy = toHtml (monthName m <> " " <> pack (show d) <> ordinal d <> ", " <> pack (show y))
+    describe' dy = toHtml (formatDate y m d)
         where (y, m, d) = toGregorian dy
 
 instance Describe FixedDay where
     describe' (FixedDay d) = b (describe' d)
 
 instance Describe Event where
-    describe' Birthday { person=p, birthDay=bd, bio=bio } = describe' bd <> ": " <> i (toHtml (toPossessive p)) <> " birthday." <> describe' bio
+    describe' Birthday { person=p, birthDay=bd, bio=bio } = describe' bd <> ": " <> i (toHtml (toPossessive p)) <> " Birthday." <> describe' bio
 
 instance Describe GeekEvent where
-    describe' GeekEvent { event=ev } = describe' ev
+    describe' (g@GeekEvent { event=ev }) = describe' ev <> footnotes g
 
 instance Describe Markdown where
     describe' (Markdown md) = markdown def (fromStrict md)
+
+instance Footnotes GeekEvent where
+    footnotes' g@GeekEvent {julian=j}
+        | j, UTCTime d 0 <- startTime' g = [julianNote (toSummary' g) d]
+        | otherwise = []
 
 instance ToRecur FixedDay where
     toRecur (FixedDay d) = Recur Yearly Nothing 1 [] [] [] [] [] [] [] [] [] Monday
@@ -148,10 +172,12 @@ instance ToCategories GeekEvent where
     toCategories GeekEvent { event=e } = toCategories e
 
 instance ToSummary Event where
-    toSummary' Birthday { person=p } = toPossessive p <> " Birthday \x1f382"
+    toSummary' Birthday { person=p } = toPossessive p <> " Birthday"
+    toEmoji Birthday {} = ["\x1f382"]
 
 instance ToSummary GeekEvent where
     toSummary' GeekEvent { event=e } = toSummary' e
+    toEmoji GeekEvent { event=e } = toEmoji e
     toSummary GeekEvent { event=e } = toSummary e
 
 instance ToUniqueIdentifier Day where
