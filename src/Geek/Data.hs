@@ -4,6 +4,7 @@ module Geek.Data where
 
 import Data.Char(isAlphaNum)
 import Data.Default(def)
+import Data.List(intersperse)
 import Data.Map.Strict(Map)
 import qualified Data.Map.Strict as M
 import Data.Set(empty, fromList)
@@ -19,7 +20,7 @@ import Network.URI(URI, parseURI)
 
 import Text.Blaze.Html(Html, toHtml)
 import Text.Blaze.Html.Renderer.Text(renderHtml)
-import Text.Blaze.Html5(b, i)
+import Text.Blaze.Html5(b, br, i, p)
 import Text.Blaze.Internal(MarkupM(Parent))
 import Text.ICalendar.Types(
     Categories(Categories), Comment(Comment), Created(Created), Date(Date), DateTime(UTCDateTime), Description(Description), DTStamp(DTStamp)
@@ -126,7 +127,7 @@ formatDate :: Integer -> Int -> Int -> Text
 formatDate y m d = monthName m <> " " <> pack (show d) <> ordinal d <> ", " <> pack (show y)
 
 julianNote :: Text -> Day -> Text
-julianNote nm dy = "At the time of " <> nm <> ", the Julian calendar was in place, and the date was " <> formatDate y m d
+julianNote nm dy = "At the time of " <> nm <> ", the Julian calendar was in place, and the date was " <> formatDate y m d <> "."
     where (y, m, d) = toJulian dy
 
 instance Describe Day where
@@ -140,7 +141,7 @@ instance Describe Event where
     describe' Birthday { person=p, birthDay=bd, bio=bio } = describe' bd <> ": " <> i (toHtml (toPossessive p)) <> " Birthday." <> describe' bio
 
 instance Describe GeekEvent where
-    describe' (g@GeekEvent { event=ev, links=urls }) = describe' ev <> footnotes g
+    describe' (g@GeekEvent { event=ev, links=urls }) = describe' ev <> footnotes g <> printUris urls
 
 instance Describe Markdown where
     describe' (Markdown md) = markdown def (fromStrict md)
@@ -202,6 +203,10 @@ instance ToUniqueIdentifier GeekEvent where
 urisToUrl :: [URI] -> Maybe URL
 urisToUrl (x:_) = Just (URL x def)
 urisToUrl _ = Nothing
+
+printUris :: [URI] -> Html
+printUris [] = ""
+printUris ls = p (mconcat (intersperse br (map (toHtml . pack . show) ls)))
 
 _geekCategories :: [Text] -> Categories
 _geekCategories ts = Categories (fromList ("geek" : map fromStrict ts)) _language def
