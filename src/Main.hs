@@ -9,8 +9,6 @@ import Geek.Parsing(parseBirthdays)
 
 import Text.ICalendar.Printer(printICalendar)
 
-months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
-
 main :: IO ()
 main = do
   l <- parseBirthdays

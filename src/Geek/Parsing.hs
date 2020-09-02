@@ -40,7 +40,7 @@ wrapGeekEvent :: FilePath -> Event -> IO GeekEvent
 wrapGeekEvent fp e = GeekEvent e <$> doesFileExist (fp </> "julian") <*> parseUrls fp <*> parseNotes fp
 
 parseFile :: FilePath -> FilePath -> FilePath -> IO Text
-parseFile nm root fp = (strip . pack) <$> readFile (root </> fp </> nm)
+parseFile nm root fp = strip . pack <$> readFile (root </> fp </> nm)
 
 parseToMaybe :: FilePath -> FilePath -> FilePath -> IO (Maybe Text)
 parseToMaybe nm root fp = catchWithNothing (Just <$> parseFile nm root fp)
