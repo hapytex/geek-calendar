@@ -11,10 +11,10 @@ mkdir "$dt$slug"
 echo "$@" >> "$dir/name"
 
 touch "$dir/bio.md"
-editor "$dir/bio.md"
+editor -c 'startinsert' "$dir/bio.md"
 
 touch "$dir/links"
-editor "$dir/links"
+editor -c 'startinsert' "$dir/links"
 
 touch "$dir/note.md"
 
