@@ -4,7 +4,6 @@
 
 A list of geeky events we can celebrate. For example birthdays of important
 scientists, releases of science fiction movies, events in fantasy stories, etc.
-
 The *GitHub pages* contain a [`.ics` calendar file](https://hapytex.github.io/geek-calendar/calendar.ics).
 
 The data is structured into several directories.
