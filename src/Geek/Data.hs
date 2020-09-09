@@ -102,7 +102,8 @@ class ToSummary a where
                   | otherwise = ""
 
 ordinal :: Integral i => i -> Text
-ordinal n = go' (mod n 10)
+ordinal n | rem (div n 10) 10 == 1 = "th"
+          | otherwise = go' (rem n 10)
     where go' 1 = "st"
           go' 2 = "nd"
           go' 3 = "rd"
