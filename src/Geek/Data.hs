@@ -5,7 +5,6 @@ module Geek.Data where
 import Data.Char(isAlphaNum)
 import Data.Default(def)
 import Data.List(intersperse)
-import Data.Map.Strict(Map)
 import qualified Data.Map.Strict as M
 import Data.Set(empty, fromList)
 import Data.Text(Text, isSuffixOf, pack)
@@ -139,7 +138,7 @@ instance Describe FixedDay where
     describe' (FixedDay d) = b (describe' d)
 
 instance Describe Event where
-    describe' Birthday { person=p, birthDay=bd, bio=bio } = describe' bd <> ": " <> i (toHtml (toPossessive p)) <> " Birthday." <> describe' bio
+    describe' Birthday { person=_p, birthDay=bd, bio=_bio } = describe' bd <> ": " <> i (toHtml (toPossessive _p)) <> " Birthday." <> describe' _bio
 
 instance Describe GeekEvent where
     describe' g@GeekEvent { event=ev, links=urls } = describe' ev <> footnotes g <> printUris urls
@@ -153,7 +152,7 @@ instance Footnotes GeekEvent where
         | otherwise = []
 
 instance ToRecur FixedDay where
-    toRecur (FixedDay d) = Recur Yearly Nothing 1 [] [] [] [] [] [] [] [] [] Monday
+    toRecur (FixedDay _) = Recur Yearly Nothing 1 [] [] [] [] [] [] [] [] [] Monday
     startTime' (FixedDay d) = UTCTime d 0
     dtStart (FixedDay d) = DTStartDate (Date d) def
 
@@ -168,13 +167,13 @@ instance ToRecur GeekEvent where
     dtStart GeekEvent {event=ev} = dtStart ev
 
 instance ToCategories Event where
-    toCategories Birthday { person=p } = [p, "birthday"]
+    toCategories Birthday { person=_p } = [_p, "birthday"]
 
 instance ToCategories GeekEvent where
     toCategories GeekEvent { event=e } = toCategories e
 
 instance ToSummary Event where
-    toSummary' Birthday { person=p } = toPossessive p <> " Birthday"
+    toSummary' Birthday { person=_p } = toPossessive _p <> " Birthday"
     toEmoji Birthday {} = ["\x1f382"]
 
 instance ToSummary GeekEvent where
@@ -195,7 +194,7 @@ instance ToUniqueIdentifier Text where
                   | otherwise = '-'
 
 instance ToUniqueIdentifier Event where
-    toUniqueIdentifier' Birthday { person=p, birthDay=bd } = toUniqueIdentifier' bd <> "-" <> toUniqueIdentifier' p
+    toUniqueIdentifier' Birthday { person=_p, birthDay=bd } = toUniqueIdentifier' bd <> "-" <> toUniqueIdentifier' _p
 
 instance ToUniqueIdentifier GeekEvent where
     toUniqueIdentifier GeekEvent {event=e} = toUniqueIdentifier e
