@@ -14,7 +14,7 @@ import Geek.Data(Event(Birthday), FixedDay(FixedDay), GeekEvent(GeekEvent), Mark
 import Network.URI(URI, parseURI)
 
 import System.Directory(doesFileExist, listDirectory)
-import System.FilePath(takeBaseName, (</>))
+import System.FilePath((</>))
 
 import Text.Read(readMaybe)
 
@@ -58,12 +58,12 @@ parseUrls :: FilePath -> IO [URI]
 parseUrls fp = catchWithDefault [] (mapMaybe parseURI . lines <$> readFile (fp </> "links"))
 
 parseNotes :: FilePath -> IO Text
-parseNotes fp = pure ""
+parseNotes _ = pure ""
 
 wrapingGeekEvent :: (FilePath -> IO (Maybe Event)) -> FilePath -> FilePath -> IO (Maybe GeekEvent)
 wrapingGeekEvent f r n = f n >>= g (wrapGeekEvent (r </> n))
     where g _ Nothing = pure Nothing
-          g f (Just x) = Just <$> f x
+          g _f (Just x) = Just <$> _f x
 
 parseBirthday :: FilePath -> IO (Maybe Event)
 parseBirthday fn = do
