@@ -1,0 +1,1 @@
+A Flemish physician and founder of modern anatomy. He is most famous for *De humani corporis fabrica*, a set of books that describe the human anatomy. *Andreas Vesalius* is the Latinized form of his real name *Andries van Wesel*.
