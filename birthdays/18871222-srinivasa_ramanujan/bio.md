@@ -1,0 +1,1 @@
+An Indian mathematician who made, with almost no formal training in pure mathematics, made significant contributions to number theory, analysis, infinite series and continued fractions. During his short life, he compiled thousands of mathematical identities and equations.
