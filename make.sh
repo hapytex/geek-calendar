@@ -2,6 +2,6 @@
 
 mkdir -p out
 
-stack run > out/calendar.ics
+stack run > out/geek-calendar.ics
 
 exit 0
