@@ -1,0 +1,1 @@
+A British biologist and naturalist who independently conceived the *theory of Evolution* through natural selection and was one of the first biologists to express concern about the effects human activities had on the natural world.
