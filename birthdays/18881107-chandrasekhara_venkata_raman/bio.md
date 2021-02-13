@@ -1,0 +1,1 @@
+An Indian physicist known for the discovery that light can donate small amounts of energy to a molecule changing the color of  that light and letting the molecule vibrate. This can be used to discover what molecule was hit by that light.
