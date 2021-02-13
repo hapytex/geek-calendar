@@ -1,0 +1,1 @@
+A New Zealand physicist and the father of nuclear physics and nuclear chemistry. He discovered the *proton*, and the *alpha* and *beta particle*. He also achieved the first laboratory transformation of one element into another element.

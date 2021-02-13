@@ -1,0 +1,1 @@
+An Italian physician, naturalist, biologist and poet. He challenged the theory of *spontaneous generation* and demonstrated that maggots come from eggs of flies. He is known as the "father of modern parasitology".
