@@ -6,7 +6,7 @@ shift
 slug=$(bash ../slugify.sh "$@")
 dir=$(echo "$dt$slug")
 
-mkdir "$dt$slug"
+mkdir -p "$dt$slug"
 
 echo "$@" >> "$dir/name"
 
