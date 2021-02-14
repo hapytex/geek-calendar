@@ -1,1 +1,1 @@
-A German physician who became known as the "*Pope of medicine*". He is the founder of social medicine and pathology and identified that diseases are caused by malfunctioning cells. He was the first to catalog conditions such as embolism, trombosis, chordoma and ochranosis.
+A German physician who became known as the "*Pope of medicine*". He is the founder of social medicine and pathology and identified that diseases are caused by malfunctioning cells. He was the first to catalog conditions such as embolism, thrombosis, chordoma and ochranosis.
