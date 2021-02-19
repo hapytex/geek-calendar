@@ -18,6 +18,9 @@ import System.FilePath((</>))
 
 import Text.Read(readMaybe)
 
+_directory :: FilePath
+_directory = "birthday"
+
 _catchHandler :: a -> SomeException -> IO a
 _catchHandler = const . pure
 
@@ -67,11 +70,11 @@ wrapingGeekEvent f r n = f n >>= g (wrapGeekEvent (r </> n))
 
 parseBirthday :: FilePath -> IO (Maybe Event)
 parseBirthday fn = do
-    name <- parseName "birthdays" fn
-    bio <- Markdown <$> parseBio "birthdays" fn
+    name <- parseName _directory fn
+    bio <- Markdown <$> parseBio _directory fn
     pure (Birthday <$> name <*> fmap FixedDay (parseDayFromFilename fn) <*> pure Nothing <*> pure bio)
 
 parseBirthdays :: IO [GeekEvent]
 parseBirthdays = do
-    ls <- listDirectory "birthdays"
-    catMaybes <$> mapM (wrapingGeekEvent parseBirthday "birthdays") ls
+    ls <- listDirectory _directory
+    catMaybes <$> mapM (wrapingGeekEvent parseBirthday _directory) ls

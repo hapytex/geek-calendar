@@ -10,7 +10,7 @@ The data is structured into several directories.
 
 # File structure
 
-For each important researcher, a directory is made in the [**`birthdays/`**](birthdays/)
+For each important researcher, a directory is made in the [**`birthday/`**](birthday/)
 directory. The directory name has the form `yyyymmdd-slug_of_person-name`. With
 `yyyymmdd` the birthday according to the *Gregorian* calendar of that person.
 The directory contains two files `name` that contains the full name of the
