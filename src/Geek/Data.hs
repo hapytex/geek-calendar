@@ -55,7 +55,7 @@ newtype FixedDay = FixedDay Day deriving (Eq, Ord, Show)
 newtype Markdown = Markdown Text deriving (Eq, Ord, Show)
 
 data Universe
-  = Universe { universe :: Text, emoji :: Maybe Text }
+  = Universe { universeName :: Text, universeEmoji :: Maybe Text, universeLinks :: [URI] }
   deriving (Eq, Ord, Show)
 
 data Event

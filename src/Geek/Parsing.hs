@@ -9,7 +9,7 @@ import Data.Maybe(catMaybes, mapMaybe)
 import Data.Text(Text, pack, strip)
 import Data.Time.Calendar(Day, fromGregorianValid)
 
-import Geek.Data(Event(Birthday), FixedDay(FixedDay), GeekEvent(GeekEvent), Markdown(Markdown))
+import Geek.Data(Event(Birthday), FixedDay(FixedDay), GeekEvent(GeekEvent), Markdown(Markdown), Universe(Universe))
 
 import Network.URI(URI, parseURI)
 
@@ -18,8 +18,11 @@ import System.FilePath((</>))
 
 import Text.Read(readMaybe)
 
-_directory :: FilePath
-_directory = "birthday"
+_bddir :: FilePath
+_bddir = "birthday"
+
+_undir :: FilePath
+_undir = "universe"
 
 _catchHandler :: a -> SomeException -> IO a
 _catchHandler = const . pure
@@ -70,11 +73,22 @@ wrapingGeekEvent f r n = f n >>= g (wrapGeekEvent (r </> n))
 
 parseBirthday :: FilePath -> IO (Maybe Event)
 parseBirthday fn = do
-    name <- parseName _directory fn
-    bio <- Markdown <$> parseBio _directory fn
+    name <- parseName _bddir fn
+    bio <- Markdown <$> parseBio _bddir fn
     pure (Birthday <$> name <*> fmap FixedDay (parseDayFromFilename fn) <*> pure Nothing <*> pure bio)
 
 parseBirthdays :: IO [GeekEvent]
 parseBirthdays = do
-    ls <- listDirectory _directory
-    catMaybes <$> mapM (wrapingGeekEvent parseBirthday _directory) ls
+    ls <- listDirectory _bddir
+    catMaybes <$> mapM (wrapingGeekEvent parseBirthday _bddir) ls
+
+parseUniverse :: FilePath -> IO (Maybe Universe)
+parseUniverse fn = do
+    name <- parseName _undir fn
+    urls <- parseUrls (_undir </> fn)
+    pure (Universe <$> name <*> pure Nothing <*> pure urls)
+
+parseUniverses :: IO [Universe]
+parseUniverses = do
+    ls <- listDirectory _undir
+    catMaybes <$> mapM parseUniverse ls
