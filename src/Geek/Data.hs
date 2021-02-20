@@ -54,6 +54,10 @@ toPossessive t
 newtype FixedDay = FixedDay Day deriving (Eq, Ord, Show)
 newtype Markdown = Markdown Text deriving (Eq, Ord, Show)
 
+data Universe
+  = Universe { universe :: Text, emoji :: Maybe Text }
+  deriving (Eq, Ord, Show)
+
 data Event
   = Birthday { person :: Text, birthDay :: FixedDay, deathday :: Maybe Day, bio :: Markdown }  -- birthday is the event
   deriving (Eq, Ord, Show)
