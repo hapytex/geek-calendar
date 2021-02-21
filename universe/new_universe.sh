@@ -7,7 +7,7 @@ dir=$(echo "$slug")
 mkdir -p "$dir"
 
 nm=$(echo "$@")
-echo "$@" >> "$dir/name"
+echo "$nm" >> "$dir/name"
 
 touch "$dir/emoji"
 editor -c 'startinsert' "$dir/emoji"

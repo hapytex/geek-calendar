@@ -8,7 +8,8 @@ dir=$(echo "$dt$slug")
 
 mkdir -p "$dir"
 
-echo "$@" >> "$dir/name"
+nm=$(echo "$@")
+echo "$nm" >> "$dir/name"
 
 touch "$dir/bio.md"
 editor -c 'startinsert' "$dir/bio.md"
@@ -19,3 +20,4 @@ editor -c 'startinsert' "$dir/links"
 touch "$dir/note.md"
 
 git add "$dir/name" "$dir/bio.md" "$dir/links" "$dir/note.md"
+git commit -am "Add birthday of $nm"
