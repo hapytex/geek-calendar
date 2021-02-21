@@ -6,6 +6,7 @@ dir=$(echo "$slug")
 
 mkdir -p "$dir"
 
+nm=$(echo "$@")
 echo "$@" >> "$dir/name"
 
 touch "$dir/emoji"
@@ -15,3 +16,4 @@ touch "$dir/links"
 editor -c 'startinsert' "$dir/links"
 
 git add "$dir/name" "$dir/emoji" "$dir/links"
+git commit -am "added the $nm universe"
