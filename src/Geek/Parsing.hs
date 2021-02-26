@@ -57,6 +57,9 @@ parseToEmpty nm root fp = catchWithDefault "" (parseFile nm root fp)
 parseName :: FilePath -> FilePath -> IO (Maybe Text)
 parseName = parseToMaybe "name"
 
+parseEmoji :: FilePath -> FilePath -> IO (Maybe Text)
+parseEmoji = parseToMaybe "emoji"
+
 parseBio :: FilePath -> FilePath -> IO Text
 parseBio = parseToEmpty "bio.md"
 
@@ -86,7 +89,8 @@ parseUniverse :: FilePath -> IO (Maybe Universe)
 parseUniverse fn = do
     name <- parseName _undir fn
     urls <- parseUrls (_undir </> fn)
-    pure (Universe <$> name <*> pure Nothing <*> pure urls)
+    emoji <- parseEmoji _undir fn
+    pure (Universe <$> name <*> pure emoji <*> pure urls)
 
 parseUniverses :: IO [Universe]
 parseUniverses = do
