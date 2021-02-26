@@ -10,12 +10,19 @@ The data is structured into several directories.
 
 # File structure
 
-For each important researcher, a directory is made in the [**`birthday/`**](birthday/)
+For each important *person* (researcher, actor, comic book artist, etc.),
+a directory is made in the [**`birthday/`**](birthday/)
 directory. The directory name has the form `yyyymmdd-slug_of_person-name`. With
 `yyyymmdd` the birthday according to the *Gregorian* calendar of that person.
 The directory contains two files `name` that contains the full name of the
 person, and `bio.md` that contains a *Markdown* formatted file that contains a
 short biography of that person.
+
+For each *universe*, a directory is made in the [**`universe/`**](universe/)
+directory. The directory name is the slug of the universe. In the directory, there
+are three files: `name` will contain the name of that universe, `emoji`, an optional
+file contains an emoji linked to that universe, and the directory can also contain
+`links`.
 
 ## Files in each directory
 
