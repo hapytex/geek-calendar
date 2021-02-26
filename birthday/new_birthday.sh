@@ -4,7 +4,7 @@
 dt=$(date '+%Y%m%d-' -d "$1")
 shift
 slug=$(bash ../slugify.sh "$@")
-dir=$(echo "$dt$slug")
+dir="$dt$slug"
 
 mkdir -p "$dir"
 

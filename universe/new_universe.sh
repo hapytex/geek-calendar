@@ -2,7 +2,7 @@
 
 # slugify the name of the universe
 slug=$(bash ../slugify.sh "$@")
-dir=$(echo "$slug")
+dir="$slug"
 
 mkdir -p "$dir"
 
