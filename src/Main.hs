@@ -11,9 +11,8 @@ import Text.ICalendar.Printer(printICalendar)
 
 main :: IO ()
 main = do
-  us <- parseUniverses
+  _ <- parseUniverses
   l <- parseBirthdays
   t <- getCurrentTime
   let c = packCalendar t l
   B.putStr (printICalendar def c)
-  putStrLn ""
