@@ -4,7 +4,8 @@
 slug=$(bash ../slugify.sh "$@")
 dir="$slug"
 
-mkdir -p "$dir"
+# create a directory and create a directory for calendar events
+mkdir -p "$dir" "../fixedday/$dir"
 
 nm=$(echo "$@")
 echo "$nm" >> "$dir/name"
