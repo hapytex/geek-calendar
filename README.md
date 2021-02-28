@@ -1,6 +1,6 @@
 # geek-calendar
 
-[![Build Status of the package by Travis](https://travis-ci.com/hapytex/geek-calendar.svg?branch=master)](https://travis-ci.com/hapytex/geek-calendar)
+[![Build Status of the package by GitHub actions](https://github.com/hapytex/geek-calendar/actions/workflows/build-ci.yml/badge.svg)](https://github.com/hapytex/geek-calendar/actions/workflows/build-ci.yml)
 
 A list of geeky events we can celebrate. For example birthdays of important
 scientists, releases of science fiction movies, events in fantasy stories, etc.
