@@ -78,8 +78,8 @@ jobs:
       run: sudo apt-get install cabal-install-3.0 haskell-stack
     - name: checkout code
       uses: actions/checkout@v2.3.1
-    - name: create the haddock documentation
-      run: make.sh
+    - name: create the .ics file
+      run: bash make.sh
     - name: deploy the documentation on the GitHub pages
       uses: JamesIves/github-pages-deploy-action@4.0.0
       with:
