@@ -61,7 +61,7 @@ data Universe
 
 data Event
   = Birthday { person :: Text, birthDay :: FixedDay, deathday :: Maybe Day, bio :: Markdown }  -- birthday is the event
-  | FixedEvent { eventName :: Text, whyDay :: Text, eventUniverse :: Maybe Universe, eventDay :: FixedDay }
+  | FixedEvent { eventName :: Text, eventDescription :: Text, whyDay :: Text, eventUniverse :: Maybe Universe, eventDay :: FixedDay }
   deriving (Eq, Ord, Show)
 
 data GeekEvent
@@ -192,6 +192,7 @@ instance ToSummary Universe where
 
 instance ToSummary Event where
     toSummary' Birthday { person=_p } = toPossessive _p <> " Birthday"
+    toSummary' FixedEvent { eventName=en } = en
     toEmoji Birthday {} = ["\x1f382"]
     toEmoji FixedEvent { eventUniverse=Just un } = toEmoji un
     toEmoji FixedEvent {} = []
@@ -215,6 +216,7 @@ instance ToUniqueIdentifier Text where
 
 instance ToUniqueIdentifier Event where
     toUniqueIdentifier' Birthday { person=_p, birthDay=bd } = toUniqueIdentifier' bd <> "-" <> toUniqueIdentifier' _p
+    toUniqueIdentifier' FixedEvent { eventName=_en, eventDay=_ed } = toUniqueIdentifier' _ed <> "-" <> toUniqueIdentifier' _en
 
 instance ToUniqueIdentifier GeekEvent where
     toUniqueIdentifier GeekEvent {event=e} = toUniqueIdentifier e
