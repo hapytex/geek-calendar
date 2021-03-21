@@ -12,7 +12,7 @@ The data is structured into several directories.
 
 For each important *person* (researcher, actor, comic book artist, etc.),
 a directory is made in the [**`birthday/`**](birthday/)
-directory. The directory name has the form `yyyymmdd-slug_of_person-name`. With
+directory. The directory name has the form `yyyymmdd-slug_of_person_name`. With
 `yyyymmdd` the birthday according to the *Gregorian* calendar of that person.
 The directory contains two files `name` that contains the full name of the
 person, and `bio.md` that contains a *Markdown* formatted file that contains a
@@ -23,6 +23,14 @@ directory. The directory name is the slug of the universe. In the directory, the
 are three files: `name` will contain the name of that universe, `emoji`, an optional
 file contains an emoji linked to that universe, and the directory can also contain
 `links`.
+
+For events with a *fixed day*, the [**`fixedday/`**](fixedday/) directory is used.
+In this directory subdirectories per universe are created, and for each of these
+subdirectories, a directory is used per fixed day event. This directory has the form
+`yyyymmdd-slug_of_event_name`. In this directory a file named `name` will contain the
+real name of the event, a file `description.md` will contain a short description of the
+event in *Markdown* and optionally a file named `why.md` that contains the reason
+why that specific date was picked.
 
 ## Files in each directory
 
