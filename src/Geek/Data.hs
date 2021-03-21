@@ -4,6 +4,7 @@ module Geek.Data where
 
 import Data.Char(isAlphaNum)
 import Data.Default(def)
+import Data.Foldable(toList)
 import Data.List(intersperse)
 import qualified Data.Map.Strict as M
 import Data.Set(empty, fromList)
@@ -60,6 +61,7 @@ data Universe
 
 data Event
   = Birthday { person :: Text, birthDay :: FixedDay, deathday :: Maybe Day, bio :: Markdown }  -- birthday is the event
+  | FixedEvent { eventName :: Text, eventDescription :: Markdown, whyDay :: Markdown, eventUniverse :: Maybe Universe, eventDay :: FixedDay }
   deriving (Eq, Ord, Show)
 
 data GeekEvent
@@ -143,6 +145,7 @@ instance Describe FixedDay where
 
 instance Describe Event where
     describe' Birthday { person=_p, birthDay=bd, bio=_bio } = describe' bd <> ": " <> i (toHtml (toPossessive _p)) <> " Birthday." <> describe' _bio
+    describe' FixedEvent { eventName=_n, eventDay=_ed, eventDescription=_ds } = describe' _ed <> ": " <> toHtml _n <> ". " <> describe' _ds
 
 instance Describe GeekEvent where
     describe' g@GeekEvent { event=ev, links=urls } = describe' ev <> footnotes g <> printUris urls
@@ -162,23 +165,40 @@ instance ToRecur FixedDay where
 
 instance ToRecur Event where
     toRecur Birthday { birthDay=bd } = toRecur bd
+    toRecur FixedEvent { eventDay=ed } = toRecur ed
     startTime' Birthday { birthDay=bd } = startTime' bd
+    startTime' FixedEvent { eventDay=ed } = startTime' ed
     dtStart Birthday { birthDay=bd } = dtStart bd
+    dtStart FixedEvent { eventDay=ed } = dtStart ed
 
 instance ToRecur GeekEvent where
     toRecur GeekEvent {event=ev} = toRecur ev
     startTime' GeekEvent {event=ev} = startTime' ev
     dtStart GeekEvent {event=ev} = dtStart ev
 
+instance ToCategories Universe where
+    toCategories Universe { universeName=un } = [un]
+
 instance ToCategories Event where
     toCategories Birthday { person=_p } = [_p, "birthday"]
+    toCategories FixedEvent { eventUniverse = Just u} = toCategories u
+    toCategories FixedEvent {} = []
 
 instance ToCategories GeekEvent where
     toCategories GeekEvent { event=e } = toCategories e
 
+instance ToSummary Universe where
+  toSummary' Universe { universeName=un } = un
+  toEmoji Universe { universeEmoji=em } = toList em
+
 instance ToSummary Event where
     toSummary' Birthday { person=_p } = toPossessive _p <> " Birthday"
+    toSummary' FixedEvent { eventName=en, eventUniverse=un } = go un en
+      where go Nothing = id
+            go (Just Universe {universeName=u}) = (<> (" (" <> u <> ")"))
     toEmoji Birthday {} = ["\x1f382"]
+    toEmoji FixedEvent { eventUniverse=Just un } = toEmoji un
+    toEmoji FixedEvent {} = []
 
 instance ToSummary GeekEvent where
     toSummary' GeekEvent { event=e } = toSummary' e
@@ -199,6 +219,7 @@ instance ToUniqueIdentifier Text where
 
 instance ToUniqueIdentifier Event where
     toUniqueIdentifier' Birthday { person=_p, birthDay=bd } = toUniqueIdentifier' bd <> "-" <> toUniqueIdentifier' _p
+    toUniqueIdentifier' FixedEvent { eventName=_en, eventDay=_ed } = toUniqueIdentifier' _ed <> "-" <> toUniqueIdentifier' _en
 
 instance ToUniqueIdentifier GeekEvent where
     toUniqueIdentifier GeekEvent {event=e} = toUniqueIdentifier e

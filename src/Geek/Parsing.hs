@@ -1,28 +1,35 @@
-{-# LANGUAGE OverloadedStrings #-}
+{-# LANGUAGE OverloadedStrings, TupleSections #-}
 
 module Geek.Parsing where
 
 import Control.Exception(SomeException, catch)
 
 import Data.List.Split(splitOn)
+import Data.Map(Map, (!?))
+import qualified Data.Map.Strict as M
 import Data.Maybe(catMaybes, mapMaybe)
 import Data.Text(Text, pack, strip)
 import Data.Time.Calendar(Day, fromGregorianValid)
 
-import Geek.Data(Event(Birthday), FixedDay(FixedDay), GeekEvent(GeekEvent), Markdown(Markdown), Universe(Universe))
+import Geek.Data(Event(Birthday, FixedEvent), FixedDay(FixedDay), GeekEvent(GeekEvent), Markdown(Markdown), Universe(Universe))
 
 import Network.URI(URI, parseURI)
 
-import System.Directory(doesFileExist, listDirectory)
+import System.Directory(doesFileExist, doesDirectoryExist, listDirectory)
 import System.FilePath((</>))
 
 import Text.Read(readMaybe)
+
+type UniverseMap = Map FilePath Universe
 
 _bddir :: FilePath
 _bddir = "birthday"
 
 _undir :: FilePath
 _undir = "universe"
+
+_fixeddir :: FilePath
+_fixeddir = "fixedday"
 
 _catchHandler :: a -> SomeException -> IO a
 _catchHandler = const . pure
@@ -36,6 +43,9 @@ catchWithNothing = catchWithDefault Nothing
 parseDayFromFilename :: FilePath -> Maybe Day
 parseDayFromFilename fn = parseDayFromFilename' fn >>= f
     where f i = fromGregorianValid (div i 10000) (fromIntegral (mod (div i 100) 100)) (fromIntegral (mod i 100))
+
+parseFixedDayFromFilename :: FilePath -> Maybe FixedDay
+parseFixedDayFromFilename = fmap FixedDay . parseDayFromFilename
 
 parseDayFromFilename' :: FilePath -> Maybe Integer
 parseDayFromFilename' fn
@@ -63,6 +73,12 @@ parseEmoji = parseToMaybe "emoji"
 parseBio :: FilePath -> FilePath -> IO Text
 parseBio = parseToEmpty "bio.md"
 
+parseDescription :: FilePath -> FilePath -> IO Text
+parseDescription = parseToEmpty "description.md"
+
+parseWhy :: FilePath -> FilePath -> IO Text
+parseWhy = parseToEmpty "why.md"
+
 parseUrls :: FilePath -> IO [URI]
 parseUrls fp = catchWithDefault [] (mapMaybe parseURI . lines <$> readFile (fp </> "links"))
 
@@ -78,21 +94,40 @@ parseBirthday :: FilePath -> IO (Maybe Event)
 parseBirthday fn = do
     name <- parseName _bddir fn
     bio <- Markdown <$> parseBio _bddir fn
-    pure (Birthday <$> name <*> fmap FixedDay (parseDayFromFilename fn) <*> pure Nothing <*> pure bio)
+    pure (Birthday <$> name <*> parseFixedDayFromFilename fn <*> pure Nothing <*> pure bio)
+
+parseFixedEvent :: UniverseMap -> FilePath -> FilePath -> IO (Maybe Event)
+parseFixedEvent uns un fn = do
+    let dr = _fixeddir </> un
+    name <- parseName dr fn
+    description <- Markdown <$> parseDescription dr fn
+    why <- Markdown <$> parseWhy dr fn
+    pure (FixedEvent <$> name <*> pure description <*> pure why <*> pure (uns !? un) <*> parseFixedDayFromFilename fn)
 
 parseBirthdays :: IO [GeekEvent]
 parseBirthdays = do
     ls <- listDirectory _bddir
     catMaybes <$> mapM (wrapingGeekEvent parseBirthday _bddir) ls
 
-parseUniverse :: FilePath -> IO (Maybe Universe)
+parseFixedEvents :: UniverseMap -> IO [GeekEvent]
+parseFixedEvents uns = do
+    ls <- listDirectory _fixeddir
+    concat <$> (`mapM` ls) (\li -> do
+      let dr = _fixeddir </> li
+      de <- doesDirectoryExist dr
+      if de then do
+        la <- listDirectory dr
+        catMaybes <$> mapM (wrapingGeekEvent (parseFixedEvent uns li) dr) la
+      else pure [])
+
+parseUniverse :: FilePath -> IO (Maybe (FilePath, Universe))
 parseUniverse fn = do
     name <- parseName _undir fn
     urls <- parseUrls (_undir </> fn)
     emoji <- parseEmoji _undir fn
-    pure (Universe <$> name <*> pure emoji <*> pure urls)
+    pure ((fn,) <$> (Universe <$> name <*> pure emoji <*> pure urls))
 
-parseUniverses :: IO [Universe]
+parseUniverses :: IO UniverseMap
 parseUniverses = do
     ls <- listDirectory _undir
-    catMaybes <$> mapM parseUniverse ls
+    M.fromList . catMaybes <$> mapM parseUniverse ls

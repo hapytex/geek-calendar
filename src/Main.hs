@@ -5,14 +5,15 @@ import Data.Default(def)
 import Data.Time.Clock(getCurrentTime)
 
 import Geek.Data
-import Geek.Parsing(parseBirthdays, parseUniverses)
+import Geek.Parsing(parseBirthdays, parseFixedEvents, parseUniverses)
 
 import Text.ICalendar.Printer(printICalendar)
 
 main :: IO ()
 main = do
-  _ <- parseUniverses
+  uv <- parseUniverses
   l <- parseBirthdays
+  fe <- parseFixedEvents uv
   t <- getCurrentTime
-  let c = packCalendar t l
+  let c = packCalendar t (l ++ fe)
   B.putStr (printICalendar def c)
