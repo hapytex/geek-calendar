@@ -14,7 +14,6 @@ main = do
   uv <- parseUniverses
   l <- parseBirthdays
   fe <- parseFixedEvents uv
-  print uv
-  -- t <- getCurrentTime
-  -- let c = packCalendar t l
-  -- B.putStr (printICalendar def c)
+  t <- getCurrentTime
+  let c = packCalendar t (l ++ fe)
+  B.putStr (printICalendar def c)

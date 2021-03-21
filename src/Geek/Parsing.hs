@@ -95,7 +95,7 @@ parseBirthday fn = do
 
 parseFixedEvent :: UniverseMap -> FilePath -> FilePath -> IO (Maybe Event)
 parseFixedEvent uns un fn = do
-    name <- parseName (_fixeddir </> _undir) fn
+    name <- parseName (_fixeddir </> un) fn
     let description = Just ""
     let why = Just ""
     pure (FixedEvent <$> name <*> description <*> why <*> pure (uns !? un) <*> parseFixedDayFromFilename fn)
@@ -109,10 +109,11 @@ parseFixedEvents :: UniverseMap -> IO [GeekEvent]
 parseFixedEvents uns = do
     ls <- listDirectory _fixeddir
     concat <$> ((`mapM` ls) $ \li -> do
-      de <- doesDirectoryExist li
+      let dr = _fixeddir </> li
+      de <- doesDirectoryExist dr
       if de then do
-        la <- listDirectory (_fixeddir </> li)
-        catMaybes <$> mapM (wrapingGeekEvent (parseFixedEvent uns li) li) la
+        la <- listDirectory dr
+        catMaybes <$> mapM (wrapingGeekEvent (parseFixedEvent uns li) dr) la
       else pure [])
 
 parseUniverse :: FilePath -> IO (Maybe (FilePath, Universe))
