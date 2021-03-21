@@ -192,7 +192,9 @@ instance ToSummary Universe where
 
 instance ToSummary Event where
     toSummary' Birthday { person=_p } = toPossessive _p <> " Birthday"
-    toSummary' FixedEvent { eventName=en } = en
+    toSummary' FixedEvent { eventName=en, eventUniverse=un } = go un en
+      where go Nothing = id
+            go (Just Universe {universeName=u}) = (<> (" (" <> u <> ")"))
     toEmoji Birthday {} = ["\x1f382"]
     toEmoji FixedEvent { eventUniverse=Just un } = toEmoji un
     toEmoji FixedEvent {} = []
