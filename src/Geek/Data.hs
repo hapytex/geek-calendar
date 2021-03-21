@@ -145,7 +145,7 @@ instance Describe FixedDay where
 
 instance Describe Event where
     describe' Birthday { person=_p, birthDay=bd, bio=_bio } = describe' bd <> ": " <> i (toHtml (toPossessive _p)) <> " Birthday." <> describe' _bio
-    describe' FixedEvent { eventName=_n, eventDay=_ed, eventDescription=_ds } = describe' _ed <> ": " <> (toHtml _n) <> ". " <> describe' _ds
+    describe' FixedEvent { eventName=_n, eventDay=_ed, eventDescription=_ds } = describe' _ed <> ": " <> toHtml _n <> ". " <> describe' _ds
 
 instance Describe GeekEvent where
     describe' g@GeekEvent { event=ev, links=urls } = describe' ev <> footnotes g <> printUris urls

@@ -112,7 +112,7 @@ parseBirthdays = do
 parseFixedEvents :: UniverseMap -> IO [GeekEvent]
 parseFixedEvents uns = do
     ls <- listDirectory _fixeddir
-    concat <$> ((`mapM` ls) $ \li -> do
+    concat <$> (`mapM` ls) (\li -> do
       let dr = _fixeddir </> li
       de <- doesDirectoryExist dr
       if de then do
