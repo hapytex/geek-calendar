@@ -76,6 +76,9 @@ parseBio = parseToEmpty "bio.md"
 parseDescription :: FilePath -> FilePath -> IO Text
 parseDescription = parseToEmpty "description.md"
 
+parseWhy :: FilePath -> FilePath -> IO Text
+parseWhy = parseToEmpty "why.md"
+
 parseUrls :: FilePath -> IO [URI]
 parseUrls fp = catchWithDefault [] (mapMaybe parseURI . lines <$> readFile (fp </> "links"))
 
@@ -95,10 +98,11 @@ parseBirthday fn = do
 
 parseFixedEvent :: UniverseMap -> FilePath -> FilePath -> IO (Maybe Event)
 parseFixedEvent uns un fn = do
-    name <- parseName (_fixeddir </> un) fn
-    let description = Just ""
-    let why = Just ""
-    pure (FixedEvent <$> name <*> description <*> why <*> pure (uns !? un) <*> parseFixedDayFromFilename fn)
+    let dr = _fixeddir </> un
+    name <- parseName dr fn
+    description <- Markdown <$> parseDescription dr fn
+    why <- Markdown <$> parseWhy dr fn
+    pure (FixedEvent <$> name <*> pure description <*> pure why <*> pure (uns !? un) <*> parseFixedDayFromFilename fn)
 
 parseBirthdays :: IO [GeekEvent]
 parseBirthdays = do

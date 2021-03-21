@@ -61,7 +61,7 @@ data Universe
 
 data Event
   = Birthday { person :: Text, birthDay :: FixedDay, deathday :: Maybe Day, bio :: Markdown }  -- birthday is the event
-  | FixedEvent { eventName :: Text, eventDescription :: Text, whyDay :: Text, eventUniverse :: Maybe Universe, eventDay :: FixedDay }
+  | FixedEvent { eventName :: Text, eventDescription :: Markdown, whyDay :: Markdown, eventUniverse :: Maybe Universe, eventDay :: FixedDay }
   deriving (Eq, Ord, Show)
 
 data GeekEvent
@@ -145,7 +145,7 @@ instance Describe FixedDay where
 
 instance Describe Event where
     describe' Birthday { person=_p, birthDay=bd, bio=_bio } = describe' bd <> ": " <> i (toHtml (toPossessive _p)) <> " Birthday." <> describe' _bio
-    describe' FixedEvent { eventName=_n, eventDay=_ed } = describe' _ed <> ": " <> (toHtml _n)  -- TODO: extra information
+    describe' FixedEvent { eventName=_n, eventDay=_ed, eventDescription=_ds } = describe' _ed <> ": " <> (toHtml _n) <> ". " <> describe' _ds
 
 instance Describe GeekEvent where
     describe' g@GeekEvent { event=ev, links=urls } = describe' ev <> footnotes g <> printUris urls
