@@ -1,10 +1,11 @@
-{-# LANGUAGE OverloadedStrings #-}
+{-# LANGUAGE OverloadedStrings, TupleSections #-}
 
 module Geek.Parsing where
 
 import Control.Exception(SomeException, catch)
 
 import Data.List.Split(splitOn)
+import Data.Map(Map, (!?))
 import qualified Data.Map.Strict as M
 import Data.Maybe(catMaybes, mapMaybe)
 import Data.Text(Text, pack, strip)
@@ -14,10 +15,12 @@ import Geek.Data(Event(Birthday, FixedEvent), FixedDay(FixedDay), GeekEvent(Geek
 
 import Network.URI(URI, parseURI)
 
-import System.Directory(doesFileExist, listDirectory)
+import System.Directory(doesFileExist, doesDirectoryExist, listDirectory)
 import System.FilePath((</>))
 
 import Text.Read(readMaybe)
+
+type UniverseMap = Map FilePath Universe
 
 _bddir :: FilePath
 _bddir = "birthday"
@@ -90,32 +93,36 @@ parseBirthday fn = do
     bio <- Markdown <$> parseBio _bddir fn
     pure (Birthday <$> name <*> parseFixedDayFromFilename fn <*> pure Nothing <*> pure bio)
 
-parseFixedEvent :: FilePath -> FilePath -> IO (Maybe Event)
-parseFixedEvent un fn = do
+parseFixedEvent :: UniverseMap -> FilePath -> FilePath -> IO (Maybe Event)
+parseFixedEvent uns un fn = do
     name <- parseName (_fixeddir </> _undir) fn
     let description = Just ""
     let why = Just ""
-    pure (FixedEvent <$> name <*> description <*> why <*> pure Nothing <*> parseFixedDayFromFilename fn)
+    pure (FixedEvent <$> name <*> description <*> why <*> pure (uns !? un) <*> parseFixedDayFromFilename fn)
 
 parseBirthdays :: IO [GeekEvent]
 parseBirthdays = do
     ls <- listDirectory _bddir
     catMaybes <$> mapM (wrapingGeekEvent parseBirthday _bddir) ls
 
-parseFixedEvents :: IO [GeekEvent]
-parseFixedEvents = do
+parseFixedEvents :: UniverseMap -> IO [GeekEvent]
+parseFixedEvents uns = do
     ls <- listDirectory _fixeddir
-    la <- listDirectory (_fixeddir </> ls)
-    catMaybes <$> mapM (wrapingGeekEvent parseBirthday _bddir) ls
+    concat <$> ((`mapM` ls) $ \li -> do
+      de <- doesDirectoryExist li
+      if de then do
+        la <- listDirectory (_fixeddir </> li)
+        catMaybes <$> mapM (wrapingGeekEvent (parseFixedEvent uns li) li) la
+      else pure [])
 
-parseUniverse :: FilePath -> IO (Maybe Universe)
+parseUniverse :: FilePath -> IO (Maybe (FilePath, Universe))
 parseUniverse fn = do
     name <- parseName _undir fn
     urls <- parseUrls (_undir </> fn)
     emoji <- parseEmoji _undir fn
-    pure (Universe <$> name <*> pure emoji <*> pure urls)
+    pure ((fn,) <$> (Universe <$> name <*> pure emoji <*> pure urls))
 
-parseUniverses :: IO [Universe]
+parseUniverses :: IO UniverseMap
 parseUniverses = do
     ls <- listDirectory _undir
-    catMaybes <$> mapM parseUniverse ls
+    M.fromList . catMaybes <$> mapM parseUniverse ls
