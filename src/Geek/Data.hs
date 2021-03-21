@@ -182,6 +182,7 @@ instance ToCategories Universe where
 instance ToCategories Event where
     toCategories Birthday { person=_p } = [_p, "birthday"]
     toCategories FixedEvent { eventUniverse = Just u} = toCategories u
+    toCategories FixedEvent {} = []
 
 instance ToCategories GeekEvent where
     toCategories GeekEvent { event=e } = toCategories e
