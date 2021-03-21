@@ -30,5 +30,5 @@ editor -c 'startinsert' "$dir/links"
 
 touch "$dir/note.md"
 
-git add "$dir/name" "$dir/description.md" "$dir/links" "$dir/why" "$dir/note.md"
+git add "$dir/name" "$dir/description.md" "$dir/links" "$dir/why.md" "$dir/note.md"
 git commit -am "Add the $nm event"
