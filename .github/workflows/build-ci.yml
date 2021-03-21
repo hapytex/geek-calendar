@@ -1,4 +1,4 @@
-name: Standard checks and deployment
+name: Construct iCal
 on: push
 
 jobs:
