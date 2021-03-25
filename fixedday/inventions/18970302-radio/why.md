@@ -1,0 +1,1 @@
+on March 2, 1897, **Guglielmo Marconi** filed for British patent No. 12,039: *Improvements in Transmitting Electrical Impulses and Signals and in Apparatus There-for*, which patents the invention of the *radio*.
