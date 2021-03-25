@@ -1,0 +1,1 @@
+because on September 28, 1928, Alexander Fleming returned from a vacation in Scotland and found that some colonies of *Staphylococcus aureus* had been contaminated in his Petri dishes by a mold named *Penicillium notatum*. He found out that the mold prevented the normal growth of the *staphylococci*.
