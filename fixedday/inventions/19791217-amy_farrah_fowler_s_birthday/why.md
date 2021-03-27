@@ -1,0 +1,1 @@
+In *The Opening Night Excitation*, Sheldon has bought a ticket to go see *Star Wars: The Force Awakens* on thursday, and on the same day it is Amy's birthday. He thus confirms that Amy is born on December 17, 1979; the day when *The Opening Night Excitation* first aired.
