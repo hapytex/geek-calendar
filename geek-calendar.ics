@@ -1,0 +1,2777 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//haskell.org/NONSGML iCalendar-0.4.0.5//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+DTSTAMP:10480518T000000Z
+UID:10480518-Omar-Khayyam
+DTSTART;VALUE=DATE:10480518
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>May 18th\, 1048</b>: <i>Omar Khayyam&#39\;s</i
+ > Birthday.<p>A Persian mathematician and astronomer. He designed the <i>J
+ alali calendar</i> based\non very accurate observations of the length of a
+  year. This calendar has eight\nleap days every 33 years. He also showed t
+ hat one can use the intersection of\n<i>conic sections</i> to yield geomet
+ ric solutions to <i>cubic equations</i>.</p><p>https://en.wikipedia.org/wi
+ ki/Omar_Khayyam<br>https://en.wikipedia.org/wiki/Jalali_calendar</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Omar Khayyam's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Omar_Khayyam
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Omar Khayyam,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:14730228T000000Z
+UID:14730228-Nicolaus-Copernicus
+DTSTART;VALUE=DATE:14730228
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>February 28th\, 1473</b>: <i>Nicolaus Copernic
+ us&#39\;</i> Birthday.<p>A Prussian mathematician and astronomer who intro
+ duced a mathematical model that\nsupported <i>heliocentrism</i>\, the idea
+  that the earth revolves around the sun.</p><fn>At the time of Nicolaus Co
+ pernicus&#39\; Birthday\, the Julian calendar was in place\, and the date 
+ was February 19th\, 1473.</fn><p>https://en.wikipedia.org/wiki/Nicolaus_Co
+ pernicus</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Nicolaus Copernicus' Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Nicolaus_Copernicus
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Nicolaus Copernicus,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:15150110T000000Z
+UID:15150110-Andreas-Vesalius
+DTSTART;VALUE=DATE:15150110
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>January 10th\, 1515</b>: <i>Andreas Vesalius&#
+ 39\;</i> Birthday.<p>A Flemish physician and founder of modern anatomy. He
+  is most famous for <i>De humani corporis fabrica</i>\, a set of books tha
+ t describe the human anatomy. <i>Andreas Vesalius</i> is the Latinized for
+ m of his real name <i>Andries van Wesel</i>.</p><fn>At the time of Andreas
+  Vesalius&#39\; Birthday\, the Julian calendar was in place\, and the date
+  was December 31st\, 1514.</fn><p>https://en.wikipedia.org/wiki/Andreas_Ve
+ salius<br>https://en.wikipedia.org/wiki/De_humani_corporis_fabrica</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Andreas Vesalius' Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Andreas_Vesalius
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Andreas Vesalius,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:15461224T000000Z
+UID:15461224-Tycho-Brahe
+DTSTART;VALUE=DATE:15461224
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>December 24th\, 1546</b>: <i>Tycho Brahe&#39\;
+ s</i> Birthday.<p>A Danish astronomer and writer best known for accurate a
+ stronomical observations. He produced a star catalog with unprecedented ac
+ curacy. His measurements of the orbits of planets was significant for <i>K
+ epler&#39\;s law</i> of planetary motion\, and Newton&#39\;s <i>law of gra
+ vity</i>.</p><fn>At the time of Tycho Brahe&#39\;s Birthday\, the Julian c
+ alendar was in place\, and the date was December 14th\, 1546.</fn><p>https
+ ://en.wikipedia.org/wiki/Tycho_Brahe</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Tycho Brahe's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Tycho_Brahe
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Tycho Brahe,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:15610201T000000Z
+UID:15610201-Francis-Bacon
+DTSTART;VALUE=DATE:15610201
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>February 1st\, 1561</b>: <i>Francis Bacon&#39\
+ ;s</i> Birthday.<p>An English philosopher also known under the pseudonym o
+ f <b>Lord Verulam</b>. He\nmade contributions to the scientific method now
+  known as <i>empiricism</i>.</p><fn>At the time of Francis Bacon&#39\;s Bi
+ rthday\, the Julian calendar was in place\, and the date was January 22nd\
+ , 1561.</fn><p>https://en.wikipedia.org/wiki/Francis_Bacon</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Francis Bacon's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Francis_Bacon
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Francis Bacon,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:15640225T000000Z
+UID:15640225-Galileo-Galilei
+DTSTART;VALUE=DATE:15640225
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>February 25th\, 1564</b>: <i>Galileo Galilei&#
+ 39\;s</i> Birthday.<p>An Italian astronomer and engineer known to introduc
+ e <i>observational astronomy</i>.\nHe is known for the <i>Galileo affair</
+ i> in which he supported <i>heliocentrism</i> and\n<i>Copernicanism</i>\, 
+ and resulted in a trail.</p><fn>At the time of Galileo Galilei&#39\;s Birt
+ hday\, the Julian calendar was in place\, and the date was February 15th\,
+  1564.</fn><p>https://en.wikipedia.org/wiki/Galileo_Galilei</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Galileo Galilei's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Galileo_Galilei
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Galileo Galilei,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:15720106T000000Z
+UID:15720106-Johannes-Kepler
+DTSTART;VALUE=DATE:15720106
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>January 6th\, 1572</b>: <i>Johannes Kepler&#39
+ \;s</i> Birthday.<p>A German astronomer and mathematician. He is best know
+ n for his laws about\nplanetary movement. These works were the foundation 
+ of Newton&#39\;s theory of\n<i>gravitation</i>. He also explained how the 
+ tides on the earth are caused by the\nmoon.</p><fn>At the time of Johannes
+  Kepler&#39\;s Birthday\, the Julian calendar was in place\, and the date 
+ was December 27th\, 1571.</fn><p>https://en.wikipedia.org/wiki/Johannes_Ke
+ pler<br>https://en.wikipedia.org/wiki/Kepler%27s_laws_of_planetary_motion<
+ /p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Johannes Kepler's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Johannes_Kepler
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Johannes Kepler,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:15780411T000000Z
+UID:15780411-William-Harvey
+DTSTART;VALUE=DATE:15780411
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>April 11th\, 1578</b>: <i>William Harvey&#39\;
+ s</i> Birthday.<p>An English physician who made contributions to anatomy a
+ nd physiology. He\nexplained <i>blood circulation</i> by showing that ther
+ e is a complete circuit that\nstarts and ends in the heart.</p><fn>At the 
+ time of William Harvey&#39\;s Birthday\, the Julian calendar was in place\
+ , and the date was April 1st\, 1578.</fn><p>https://en.wikipedia.org/wiki/
+ William_Harvey</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":William Harvey's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/William_Harvey
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":William Harvey,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:15960331T000000Z
+UID:15960331-René-Descartes
+DTSTART;VALUE=DATE:15960331
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>March 31st\, 1596</b>: <i>René Descartes&#39\
+ ;</i> Birthday.<p>A French philosopher and mathematician. He is considered
+  one of the founders of\nmodern philosophy and introducing <i>skepticism</
+ i> in the scientific method. The <i>Cartesian\ncoordinate system</i> was n
+ amed after him.</p><p>https://en.wikipedia.org/wiki/Ren%C3%A9_Descartes<br
+ >https://en.wikipedia.org/wiki/Cartesian_coordinate_system</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":René Descartes' Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Ren%C3%A9_Descartes
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":René Descartes,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:16260218T000000Z
+UID:16260218-Francesco-Redi
+DTSTART;VALUE=DATE:16260218
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>February 18th\, 1626</b>: <i>Francesco Redi&#3
+ 9\;s</i> Birthday.<p>An Italian physician\, naturalist\, biologist and poe
+ t. He challenged the theory of <i>spontaneous generation</i> and demonstra
+ ted that maggots come from eggs of flies. He is known as the &quot\;father
+  of modern parasitology&quot\;.</p><p>https://en.wikipedia.org/wiki/France
+ sco_Redi</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Francesco Redi's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Francesco_Redi
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Francesco Redi,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:16270204T000000Z
+UID:16270204-Robert-Boyle
+DTSTART;VALUE=DATE:16270204
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>February 4th\, 1627</b>: <i>Robert Boyle&#39\;
+ s</i> Birthday.<p>An Anglo-Irish physicist and chemist and one of the foun
+ ders of <i>modern\nchemistry</i>. He is best known for <i>Boyle&#39\;s law
+ </i> which describes the relation\nbetween pressure and volume in an ideal
+  gas.</p><fn>At the time of Robert Boyle&#39\;s Birthday\, the Julian cale
+ ndar was in place\, and the date was January 25th\, 1627.</fn><p>https://e
+ n.wikipedia.org/wiki/Robert_Boyle<br>https://en.wikipedia.org/wiki/Boyle%2
+ 7s_law</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Robert Boyle's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Robert_Boyle
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Robert Boyle,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:16321024T000000Z
+UID:16321024-Antonie-van-Leeuwenhoek
+DTSTART;VALUE=DATE:16321024
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>October 24th\, 1632</b>: <i>Antonie van Leeuwe
+ nhoek&#39\;s</i> Birthday.<p>A Dutch scientist commonly known as the &quot
+ \;father of microbiology&quot\;. He was one of\nthe first <i>microscopists
+ </i>. He used self-made lenses to discover small organisms\nlike <i>bacter
+ ia</i>\, <i>muscular fibers</i> and <i>infusoria</i>.</p><p>https://en.wik
+ ipedia.org/wiki/Antonie_van_Leeuwenhoek</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Antonie van Leeuwenhoek's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Antonie_van_Leeuwenhoek
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Antonie van Leeuwenhoek,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:16350728T000000Z
+UID:16350728-Robert-Hooke
+DTSTART;VALUE=DATE:16350728
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>July 28th\, 1635</b>: <i>Robert Hooke&#39\;s</
+ i> Birthday.<p>An English scientist and polymath who visualized <i>microor
+ ganisms</i> using a\n<i>microscope</i>. He developed <i>Hooke&#39\;s law</
+ i> that specified the force needed to\nextend a spring. He invented the <i
+ >balance spring</i> and developed a pocket-watch.</p><fn>At the time of Ro
+ bert Hooke&#39\;s Birthday\, the Julian calendar was in place\, and the da
+ te was July 18th\, 1635.</fn><p>https://en.wikipedia.org/wiki/Robert_Hooke
+ <br>https://en.wikipedia.org/wiki/Hooke%27s_law</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Robert Hooke's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Robert_Hooke
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Robert Hooke,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:16420104T000000Z
+UID:16420104-Isaac-Newton
+DTSTART;VALUE=DATE:16420104
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>January 4th\, 1642</b>: <i>Isaac Newton&#39\;s
+ </i> Birthday.<p>An English mathematician\, and physicist. He developed a 
+ theory about gravity.</p><fn>At the time of Isaac Newton&#39\;s Birthday\,
+  the Julian calendar was in place\, and the date was December 25th\, 1641.
+ </fn><p>https://en.wikipedia.org/wiki/Isaac_Newton</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Isaac Newton's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Isaac_Newton
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Isaac Newton,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:17000208T000000Z
+UID:17000208-Daniel-Bernoulli
+DTSTART;VALUE=DATE:17000208
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>February 8th\, 1700</b>: <i>Daniel Bernoulli&#
+ 39\;s</i> Birthday.<p>A Swiss mathematician and physicist. He is best know
+ n for contributions to the\nfield of <i>fluid mechanics</i> and work in <i
+ >probability theory</i>.</p><fn>At the time of Daniel Bernoulli&#39\;s Bir
+ thday\, the Julian calendar was in place\, and the date was January 29th\,
+  1700.</fn><p>https://en.wikipedia.org/wiki/Daniel_Bernoulli</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Daniel Bernoulli's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Daniel_Bernoulli
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Daniel Bernoulli,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:17060117T000000Z
+UID:17060117-Benjamin-Franklin
+DTSTART;VALUE=DATE:17060117
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>January 17th\, 1706</b>: <i>Benjamin Franklin&
+ #39\;s</i> Birthday.<p>An American polymath and a <i>Founding Father of th
+ e United States of America</i>. He\ndiscovered electricity and made contri
+ butions to the field of <i>demography</i>.</p><fn>At the time of Benjamin 
+ Franklin&#39\;s Birthday\, the Julian calendar was in place\, and the date
+  was January 6th\, 1706.</fn><p>https://en.wikipedia.org/wiki/Benjamin_Fra
+ nklin</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Benjamin Franklin's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Benjamin_Franklin
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Benjamin Franklin,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:17070415T000000Z
+UID:17070415-Leonhard-Euler
+DTSTART;VALUE=DATE:17070415
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>April 15th\, 1707</b>: <i>Leonhard Euler&#39\;
+ s</i> Birthday.<p>A Swiss mathematician\, physicist and astronomer who mad
+ e important contributions\nto <i>infinitesimal calculus</i> and <i>graph t
+ heory</i>. He also introduced many aspects\nof today&#39\;s modern mathema
+ tical notation.</p><p>https://en.wikipedia.org/wiki/Leonhard_Euler</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Leonhard Euler's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Leonhard_Euler
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Leonhard Euler,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:17070523T000000Z
+UID:17070523-Carl-Linnaeus
+DTSTART;VALUE=DATE:17070523
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>May 23rd\, 1707</b>: <i>Carl Linnaeus&#39\;</i
+ > Birthday.<p>A Swedish botanist and physician who formalized the <i>binom
+ ial nomenclature</i>\nwhich gives species a name composed out of two parts
+ . He named and classified\nabout 13&#39\;000 lifeforms and included humans
+  in the same system.</p><fn>At the time of Carl Linnaeus&#39\; Birthday\, 
+ the Julian calendar was in place\, and the date was May 12th\, 1707.</fn><
+ p>https://en.wikipedia.org/wiki/Carl_Linnaeus<br>https://en.wikipedia.org/
+ wiki/Binomial_nomenclature</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Carl Linnaeus' Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Carl_Linnaeus
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Carl Linnaeus,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:17260614T000000Z
+UID:17260614-James-Hutton
+DTSTART;VALUE=DATE:17260614
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>June 14th\, 1726</b>: <i>James Hutton&#39\;s</
+ i> Birthday.<p>A Scottish geologist\, naturalist and physician. He is ofte
+ n referred to as the\n&quot\;father of modern geology&quot\;. He found tha
+ t the earth was much older than what was\nassumed at that time. He also wa
+ s an early proponent of <i>uniformitarianism</i>\, the\nscience that expla
+ ins the crust of the Earth by natural processes.</p><fn>At the time of Jam
+ es Hutton&#39\;s Birthday\, the Julian calendar was in place\, and the dat
+ e was June 3rd\, 1726.</fn><p>https://en.wikipedia.org/wiki/James_Hutton</
+ p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":James Hutton's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/James_Hutton
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":James Hutton,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:17360130T000000Z
+UID:17360130-James-Watt
+DTSTART;VALUE=DATE:17360130
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>January 30th\, 1736</b>: <i>James Watt&#39\;s<
+ /i> Birthday.<p>A Scottish inventor and engineer who improved the <i>steam
+  engine</i> which was one of\nthe reasons of the <i>Industrial revolution<
+ /i>.</p><fn>At the time of James Watt&#39\;s Birthday\, the Julian calenda
+ r was in place\, and the date was January 19th\, 1736.</fn><p>https://en.w
+ ikipedia.org/wiki/James_Watt</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":James Watt's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/James_Watt
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":James Watt,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:17430826T000000Z
+UID:17430826-Antoine-Lavoisier
+DTSTART;VALUE=DATE:17430826
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>August 26th\, 1743</b>: <i>Antoine Lavoisier&#
+ 39\;s</i> Birthday.<p>A French chemist who is\, in popular literature\, co
+ nsidered the &quot\;father of modern\nchemistry&quot\;. He discovered the 
+ role oxygen plays in combustion\, and rejected\n<i>phlogiston theory</i> b
+ y discovering that water is a compound of hydrogen and\noxygen. He discove
+ red that charcoal and diamonds are different forms of the same\nelement an
+ d named that element <i>carbon</i>.</p><p>https://en.wikipedia.org/wiki/An
+ toine_Lavoisier</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Antoine Lavoisier's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Antoine_Lavoisier
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Antoine Lavoisier,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:17450218T000000Z
+UID:17450218-Alessandro-Volta
+DTSTART;VALUE=DATE:17450218
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>February 18th\, 1745</b>: <i>Alessandro Volta&
+ #39\;s</i> Birthday.<p>An Italian physicist\, chemist and pioneer of elect
+ ricity and power. He is most known for inventing the electric battery and 
+ discovering methane.</p><p>https://en.wikipedia.org/wiki/Alessandro_Volta<
+ br>https://en.wikipedia.org/wiki/Voltaic_pile</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Alessandro Volta's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Alessandro_Volta
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Alessandro Volta,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:17500316T000000Z
+UID:17500316-Caroline-Herschel
+DTSTART;VALUE=DATE:17500316
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>March 16th\, 1750</b>: <i>Caroline Herschel&#3
+ 9\;s</i> Birthday.<p>A German astronomer who discovered several <i>comets<
+ /i>. She was the younger sister\nof <b>William Herschel</b> with who she w
+ orked together. The comet <i>35P/Herschel–Rigollet</i>\nis discovered by
+  her and named after her.</p><p>https://en.wikipedia.org/wiki/Caroline_Her
+ schel<br>https://en.wikipedia.org/wiki/35P/Herschel%E2%80%93Rigollet</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Caroline Herschel's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Caroline_Herschel
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Caroline Herschel,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:17660906T000000Z
+UID:17660906-John-Dalton
+DTSTART;VALUE=DATE:17660906
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>September 6th\, 1766</b>: <i>John Dalton&#39\;
+ s</i> Birthday.<p>An English chemist best known for introducing <i>atomic 
+ theory</i> into chemistry. He\nalso did studies to color blindness. <i>Deu
+ teranopia</i> is named <i>Daltonism</i> in his\nhonor.</p><p>https://en.wi
+ kipedia.org/wiki/John_Dalton<br>https://en.wikipedia.org/wiki/Color_blindn
+ ess#Deuteranopia</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":John Dalton's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/John_Dalton
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":John Dalton,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:17750120T000000Z
+UID:17750120-André-Marie-Ampère
+DTSTART;VALUE=DATE:17750120
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>January 20th\, 1775</b>: <i>André-Marie Ampè
+ re&#39\;s</i> Birthday.<p>A French physicist and mathematician. He made im
+ portant contributions to the\nfield of classical <i>electromagnetism</i>. 
+ He also invented the <i>electrical\ntelegraph</i> and the <i>solenoid</i>.
+  The unit for <i>electric current</i>\, the <i>ampere</i> is\nnamed after 
+ him.</p><p>https://en.wikipedia.org/wiki/Andr%C3%A9-Marie_Amp%C3%A8re</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":André-Marie Ampère's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Andr%C3%A9-Marie_Amp%C3%A8re
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":André-Marie Ampère,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:17760401T000000Z
+UID:17760401-Sophie-Germain
+DTSTART;VALUE=DATE:17760401
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>April 1st\, 1776</b>: <i>Sophie Germain&#39\;s
+ </i> Birthday.<p>A French mathematician and physicist\, best known for the
+  development of\n<i>elasticity theory</i> and made progress in proving <i>
+ Fermat&#39\;s last theorem</i>.</p><p>https://en.wikipedia.org/wiki/Sophie
+ _Germain<br>https://en.wikipedia.org/wiki/Elasticity_(physics)</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Sophie Germain's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Sophie_Germain
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Sophie Germain,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:17760809T000000Z
+UID:17760809-Amedeo-Avogadro
+DTSTART;VALUE=DATE:17760809
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>August 9th\, 1776</b>: <i>Amedeo Avogadro&#39\
+ ;s</i> Birthday.<p>An Italian chemist best known for his contributions to 
+ <i>molecular theory</i> now\nknown as <i>Avogadro&#39\;s law</i>. The numb
+ er of elementary entities in 1 mole of\nsubstance is known as <i>Avogadro&
+ #39\;s constant</i>.</p><p>https://en.wikipedia.org/wiki/Amedeo_Avogadro</
+ p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Amedeo Avogadro's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Amedeo_Avogadro
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Amedeo Avogadro,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:17770430T000000Z
+UID:17770430-Carl-Friedrich-Gauss
+DTSTART;VALUE=DATE:17770430
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>April 30th\, 1777</b>: <i>Carl Friedrich Gauss
+ &#39\;</i> Birthday.<p>A German mathematician and physicist who made signi
+ ficant contributions to\nmathematics and science including the <i>least sq
+ uare</i> method and the <i>fast\nFourrier transformation</i>.</p><p>https:
+ //en.wikipedia.org/wiki/Carl_Friedrich_Gauss<br>https://en.wikipedia.org/w
+ iki/List_of_things_named_after_Carl_Friedrich_Gauss<br>https://en.wikipedi
+ a.org/wiki/Least_squares<br>https://en.wikipedia.org/wiki/Cooley%E2%80%93T
+ ukey_FFT_algorithm</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Carl Friedrich Gauss' Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Carl_Friedrich_Gauss
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Carl Friedrich Gauss,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:17770814T000000Z
+UID:17770814-Hans-Christian-Ørsted
+DTSTART;VALUE=DATE:17770814
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>August 14th\, 1777</b>: <i>Hans Christian Ørs
+ ted&#39\;s</i> Birthday.<p>A Danish physicist and chemist who discovered t
+ hat electric currents create magnetic fields. This principle is known as <
+ i>Oersted&#39\;s law</i>.</p><p>https://en.wikipedia.org/wiki/Hans_Christi
+ an_%C3%98rsted<br>https://en.wikipedia.org/wiki/Oersted%27s_law</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Hans Christian Ørsted's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Hans_Christian_%C3%98rsted
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Hans Christian Ørsted,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:17910922T000000Z
+UID:17910922-Michael-Faraday
+DTSTART;VALUE=DATE:17910922
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>September 22nd\, 1791</b>: <i>Michael Faraday&
+ #39\;s</i> Birthday.<p>An English scientist who made contributions to the 
+ field of <i>electromagnetism</i>\nand <i>electrochemistry</i>. He establis
+ hed the basis for the concept of an\n<i>electromagnetic field</i> in physi
+ cs. The SI unit of capacitance is named <i>farad</i>\nin his honor.</p><p>
+ https://en.wikipedia.org/wiki/Michael_Faraday<br>https://en.wikipedia.org/
+ wiki/Farad</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Michael Faraday's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Michael_Faraday
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Michael Faraday,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:17911226T000000Z
+UID:17911226-Charles-Babbage
+DTSTART;VALUE=DATE:17911226
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>December 26th\, 1791</b>: <i>Charles Babbage&#
+ 39\;s</i> Birthday.<p>An English polymath\, inventor and mechanical engine
+ er. Babbage is considered by\nsome to be the &quot\;father of the computer
+ &quot\;. He designed the first mechanical\ncomputer named the <i>differenc
+ e engine</i> and later he proposed a machine named the\n<i>analytical engi
+ ne</i>.</p><p>https://en.wikipedia.org/wiki/Charles_Babbage<br>https://en.
+ wikipedia.org/wiki/Difference_engine<br>https://en.wikipedia.org/wiki/Anal
+ ytical_Engine</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Charles Babbage's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Charles_Babbage
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Charles Babbage,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:17990521T000000Z
+UID:17990521-Mary-Anning
+DTSTART;VALUE=DATE:17990521
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>May 21st\, 1799</b>: <i>Mary Anning&#39\;s</i>
+  Birthday.<p>An English fossil collector and paleontologist. She found Jur
+ assic marine\nfossil beds which contributed to changes in scientific think
+ ing about\n<i>prehistoric life</i>.</p><p>https://en.wikipedia.org/wiki/Ma
+ ry_Anning</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Mary Anning's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Mary_Anning
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Mary Anning,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:18090212T000000Z
+UID:18090212-Charles-Darwin
+DTSTART;VALUE=DATE:18090212
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>February 12th\, 1809</b>: <i>Charles Darwin&#3
+ 9\;s</i> Birthday.<p>An English geologist and biologist. He is best known 
+ for his contributions to\nthe science of <i>evolution</i>.</p><p>https://e
+ n.wikipedia.org/wiki/Charles_Darwin</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Charles Darwin's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Charles_Darwin
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Charles Darwin,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:18101207T000000Z
+UID:18101207-Theodor-Schwann
+DTSTART;VALUE=DATE:18101207
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>December 7th\, 1810</b>: <i>Theodor Schwann&#3
+ 9\;s</i> Birthday.<p>A German physician who established that a cell is the
+  basic unit of all living things. He also discovered the enzyme pepsin and
+  identified the role microorganisms play in alcohol fermentation.</p><p>ht
+ tps://en.wikipedia.org/wiki/Theodor_Schwann<br>https://en.wikipedia.org/wi
+ ki/Cell_theory</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Theodor Schwann's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Theodor_Schwann
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Theodor Schwann,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:18110330T000000Z
+UID:18110330-Robert-Bunsen
+DTSTART;VALUE=DATE:18110330
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>March 30th\, 1811</b>: <i>Robert Bunsen&#39\;s
+ </i> Birthday.<p>A German chemist who investigated the <i>emission spectra
+ </i> of heated elements. He\ndiscovered <i>cesium</i> and <i>rubidium</i>\
+ , an antidote to <i>arsenic poisoning</i>\, the\n<i>zinc-carbon battery</i
+ > (known as <i>Bunsen cell</i>) and <i>flash photography</i>.</p><p>https:
+ //en.wikipedia.org/wiki/Robert_Bunsen<br>https://en.wikipedia.org/wiki/Bun
+ sen_cell</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Robert Bunsen's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Robert_Bunsen
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Robert Bunsen,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:18151210T000000Z
+UID:18151210-Ada-Lovelace
+DTSTART;VALUE=DATE:18151210
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>December 10th\, 1815</b>: <i>Ada Lovelace&#39\
+ ;s</i> Birthday.<p>An English mathematician and writer. She corresponded w
+ ith <b>Charles Babbage</b>\nabout his <i>mechanical general-purpose comput
+ er</i> and was probably one of the\nfirst to recognize its full potential.
+  She is therefore often seen as one of the\nfirst <i>computer programmers<
+ /i>. One of the first (hypothetical) programs she wrote\nwas one to comput
+ e <i>Bernoulli numbers</i>.</p><p>https://en.wikipedia.org/wiki/Ada_Lovela
+ ce</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Ada Lovelace's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Ada_Lovelace
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Ada Lovelace,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:18200512T000000Z
+UID:18200512-Florence-Nightingale
+DTSTART;VALUE=DATE:18200512
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>May 12th\, 1820</b>: <i>Florence Nightingale&#
+ 39\;s</i> Birthday.<p>An English statistician and founder of modern nursin
+ g. She transformed nursing\nin a highly-trained profession. She presented 
+ work using a polar area diagram\nor a Nightingale rose diagram to present 
+ scientific data and proposed social and\nsanitary reforms which resulted i
+ n an increase of the life expectancy.</p><p>https://en.wikipedia.org/wiki/
+ Florence_Nightingale</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Florence Nightingale's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Florence_Nightingale
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Florence Nightingale,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:18210203T000000Z
+UID:18210203-Elizabeth-Blackwell
+DTSTART;VALUE=DATE:18210203
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>February 3rd\, 1821</b>: <i>Elizabeth Blackwel
+ l&#39\;s</i> Birthday.<p>A British physician and first woman to receive a 
+ medical degree in the United\nStates. She co-founded the first medical sch
+ ool for woman in the United Kingdom:\nthe <i>London School of Medicine for
+  Woman</i>.</p><p>https://en.wikipedia.org/wiki/Elizabeth_Blackwell<br>htt
+ ps://en.wikipedia.org/wiki/London_School_of_Medicine_for_Women</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Elizabeth Blackwell's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Elizabeth_Blackwell
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Elizabeth Blackwell,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:18211013T000000Z
+UID:18211013-Rudolf-Virchow
+DTSTART;VALUE=DATE:18211013
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>October 13th\, 1821</b>: <i>Rudolf Virchow&#39
+ \;s</i> Birthday.<p>A German physician who became known as the &quot\;<i>P
+ ope of medicine</i>&quot\;. He is the founder of social medicine and patho
+ logy and identified that diseases are caused by malfunctioning cells. He w
+ as the first to catalog conditions such as embolism\, thrombosis\, chordom
+ a and ochranosis.</p><p>https://en.wikipedia.org/wiki/Rudolf_Virchow</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Rudolf Virchow's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Rudolf_Virchow
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Rudolf Virchow,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:18220720T000000Z
+UID:18220720-Gregor-Mendel
+DTSTART;VALUE=DATE:18220720
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>July 20th\, 1822</b>: <i>Gregor Mendel&#39\;s<
+ /i> Birthday.<p>An Austrian scientist and Augustinian friar. Mendel founde
+ d the science of\ngenetics and identified many of the rules of heredity. H
+ e discovered that\nrecessive and dominant traits are passed from parents t
+ o offspring in a\nmathematically predictable way.</p><p>https://en.wikiped
+ ia.org/wiki/Gregor_Mendel<br>https://en.wikipedia.org/wiki/Genetics</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Gregor Mendel's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Gregor_Mendel
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Gregor Mendel,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:18221227T000000Z
+UID:18221227-Louis-Pasteur
+DTSTART;VALUE=DATE:18221227
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>December 27th\, 1822</b>: <i>Louis Pasteur&#39
+ \;s</i> Birthday.<p>A French microbiologist and chemist\, most known for h
+ is discoveries of <i>pasteurization</i>\, <i>micro fermentation</i> and th
+ e principles of <i>vaccination</i>.</p><p>https://en.wikipedia.org/wiki/Lo
+ uis_Pasteur<br>https://en.wikipedia.org/wiki/Pasteurization</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Louis Pasteur's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Louis_Pasteur
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Louis Pasteur,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:18230108T000000Z
+UID:18230108-Alfred-Russel-Wallace
+DTSTART;VALUE=DATE:18230108
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>January 8th\, 1823</b>: <i>Alfred Russel Walla
+ ce&#39\;s</i> Birthday.<p>A British biologist and naturalist who independe
+ ntly conceived the <i>theory of Evolution</i> through natural selection an
+ d was one of the first biologists to express concern about the effects hum
+ an activities had on the natural world.</p><p>https://en.wikipedia.org/wik
+ i/Alfred_Russel_Wallace</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Alfred Russel Wallace's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Alfred_Russel_Wallace
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Alfred Russel Wallace,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:18310613T000000Z
+UID:18310613-James-Clerk-Maxwell
+DTSTART;VALUE=DATE:18310613
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>June 13th\, 1831</b>: <i>James Clerk Maxwell&#
+ 39\;s</i> Birthday.<p>A Scottish scientist who made contributions to the f
+ ield of mathematical\nphysics. He formulated the classical theory of <i>el
+ ectromagnetic radiation</i>\nknown as <i>Maxwell&#39\;s equations</i>. He 
+ also developed a <i>kinetic theory</i> that\nspecifies that <i>temperature
+ </i> is entirely dependent on the movement of particles.</p><p>https://en.
+ wikipedia.org/wiki/James_Clerk_Maxwell<br>https://en.wikipedia.org/wiki/Ma
+ xwell%27s_equations</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":James Clerk Maxwell's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/James_Clerk_Maxwell
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":James Clerk Maxwell,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:18331021T000000Z
+UID:18331021-Alfred-Nobel
+DTSTART;VALUE=DATE:18331021
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>October 21st\, 1833</b>: <i>Alfred Nobel&#39\;
+ s</i> Birthday.<p>A Swedish chemist and engineer. He invented dynamite\, g
+ elignite and ballistite.\nThe wealth he generated by producing and selling
+  dynamite he later used to\nintroduce the Nobel prizes.</p><p>https://en.w
+ ikipedia.org/wiki/Alfred_Nobel<br>https://en.wikipedia.org/wiki/Nobel_Priz
+ e</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Alfred Nobel's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Alfred_Nobel
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Alfred Nobel,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:18380704T000000Z
+UID:18380704-Telegraph
+DTSTART;VALUE=DATE:18380704
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>July 4th\, 1838</b>: Telegraph. <p>The inventi
+ on of the <i>telegraph</i>.</p><p>https://en.wikipedia.org/wiki/Electrical
+ _telegraph</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Telegraph (Inventions) 💡
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Electrical_telegraph
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Inventions,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:18390211T000000Z
+UID:18390211-Josiah-Willard-Gibbs
+DTSTART;VALUE=DATE:18390211
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>February 11th\, 1839</b>: <i>Josiah Willard Gi
+ bbs&#39\;</i> Birthday.<p>An American scientist who made contributions to 
+ physics and chemistry. He\nfounded <i>modern statistical mechanics</i> and
+  <i>chemical thermodynamics</i>.</p><p>https://en.wikipedia.org/wiki/Josia
+ h_Willard_Gibbs</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Josiah Willard Gibbs' Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Josiah_Willard_Gibbs
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Josiah Willard Gibbs,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:18470211T000000Z
+UID:18470211-Thomas-Edison
+DTSTART;VALUE=DATE:18470211
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>February 11th\, 1847</b>: <i>Thomas Edison&#39
+ \;s</i> Birthday.<p>An American inventor and business man. Most known for 
+ the invention of the\n<i>electric light</i> and the <i>phonograph</i>.</p>
+ <p>https://en.wikipedia.org/wiki/Thomas_Edison</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Thomas Edison's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Thomas_Edison
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Thomas Edison,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:18470303T000000Z
+UID:18470303-Alexander-Graham-Bell
+DTSTART;VALUE=DATE:18470303
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>March 3rd\, 1847</b>: <i>Alexander Graham Bell
+ &#39\;s</i> Birthday.<p>A Scottish-born scientist\, engineer and inventor 
+ of the <i>telephone</i>. He\nco-founded the <i>American Telephone and Tele
+ graph Company (AT&amp\;T)</i>.</p><p>https://en.wikipedia.org/wiki/Alexand
+ er_Graham_Bell</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Alexander Graham Bell's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Alexander_Graham_Bell
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Alexander Graham Bell,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:18520501T000000Z
+UID:18520501-Santiago-Ramón-y-Cajal
+DTSTART;VALUE=DATE:18520501
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>May 1st\, 1852</b>: <i>Santiago Ramón y Cajal
+ &#39\;s</i> Birthday.<p>A Spanish neuroscientist best known to discover th
+ at there were gaps between\nneurons and thus proving the <i>neuron doctrin
+ e</i>.</p><p>https://en.wikipedia.org/wiki/Santiago_Ram%C3%B3n_y_Cajal<br>
+ https://en.wikipedia.org/wiki/Neuron_doctrine</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Santiago Ramón y Cajal's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Santiago_Ram%C3%B3n_y_Cajal
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Santiago Ramón y Cajal,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:18530718T000000Z
+UID:18530718-Hendrik-Lorentz
+DTSTART;VALUE=DATE:18530718
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>July 18th\, 1853</b>: <i>Hendrik Lorentz&#39\;
+ s</i> Birthday.<p>A Dutch physicist who discovered and with a theoretical 
+ framework the <i>Zeeman effect</i>. He also derived the <i>transformation 
+ equations</i> underpinning <b>Albert Einstein</b>&#39\;s <i>special theory
+  of relativity</i>.</p><p>https://en.wikipedia.org/wiki/Hendrik_Lorentz</p
+ >
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Hendrik Lorentz's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Hendrik_Lorentz
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Hendrik Lorentz,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:18561218T000000Z
+UID:18561218-Joseph-John-Thomson
+DTSTART;VALUE=DATE:18561218
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>December 18th\, 1856</b>: <i>Joseph John Thoms
+ on&#39\;s</i> Birthday.<p>A British physicist who discovered the electron.
+  He also invented the mass spectrometer\, a tool often used in analytical 
+ chemistry.</p><p>https://en.wikipedia.org/wiki/J._J._Thomson</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Joseph John Thomson's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/J._J._Thomson
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Joseph John Thomson,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:18570222T000000Z
+UID:18570222-Heinrich-Hertz
+DTSTART;VALUE=DATE:18570222
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>February 22nd\, 1857</b>: <i>Heinrich Hertz&#3
+ 9\;s</i> Birthday.<p>A German physicist who conclusively proved the existe
+ nce of <i>electromagnetic\nwaves</i>\, the unit of frequency was named her
+ tz in his honor.</p><p>https://en.wikipedia.org/wiki/Heinrich_Hertz<br>htt
+ ps://en.wikipedia.org/wiki/Hertz</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Heinrich Hertz's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Heinrich_Hertz
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Heinrich Hertz,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:18580423T000000Z
+UID:18580423-Max-Planck
+DTSTART;VALUE=DATE:18580423
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>April 23rd\, 1858</b>: <i>Max Planck&#39\;s</i
+ > Birthday.<p>A German theoretical physicist who founded quantum theory wh
+ ere he states that objects only radiate certain values of energy.</p><p>ht
+ tps://en.wikipedia.org/wiki/Max_Planck</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Max Planck's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Max_Planck
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Max Planck,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:18620123T000000Z
+UID:18620123-David-Hilbert
+DTSTART;VALUE=DATE:18620123
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>January 23rd\, 1862</b>: <i>David Hilbert&#39\
+ ;s</i> Birthday.<p>A German mathematician who made contributions to <i>inv
+ ariant theory</i>\, <i>calculus\nof variations</i>\, and <i>algebraic numb
+ er theory</i>. He published twenty-three\nproblems in mathematics known as
+  <i>Hilbert&#39\;s problems</i>.</p><p>https://en.wikipedia.org/wiki/David
+ _Hilbert<br>https://en.wikipedia.org/wiki/Hilbert%27s_problems</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":David Hilbert's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/David_Hilbert
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":David Hilbert,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:18671107T000000Z
+UID:18671107-Marie-Curie
+DTSTART;VALUE=DATE:18671107
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>November 7th\, 1867</b>: <i>Marie Curie&#39\;s
+ </i> Birthday.<p>A Polish-French physicist and chemist who did pioneering 
+ research on the topic\nof <i>radioactivity</i>.</p><p>https://en.wikipedia
+ .org/wiki/Marie_Curie</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Marie Curie's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Marie_Curie
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Marie Curie,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:18680614T000000Z
+UID:18680614-Karl-Landsteiner
+DTSTART;VALUE=DATE:18680614
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>June 14th\, 1868</b>: <i>Karl Landsteiner&#39\
+ ;s</i> Birthday.<p>An Austrian biologist and physician. He distinguished t
+ he most popular <i>blood groups</i> in 1900\nby identifying the presence o
+ f <i>agglutinin</i> in the blood. Together with\n<b>Alexander S. Wiener</b
+ > he discovered the <i>Rhesus factor</i>. These discoveries\nenabled physi
+ cians to safely transfuse blood. Together with <b>Constantin Levaditi</b> 
+ and <b>Erwin Popper</b>\,\nhe discovered the <i>polio virus</i>.</p><p>htt
+ ps://en.wikipedia.org/wiki/Karl_Landsteiner</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Karl Landsteiner's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Karl_Landsteiner
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Karl Landsteiner,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:18680704T000000Z
+UID:18680704-Henrietta-Swan-Leavitt
+DTSTART;VALUE=DATE:18680704
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>July 4th\, 1868</b>: <i>Henrietta Swan Leavitt
+ &#39\;s</i> Birthday.<p>An American astronomer. She discovered the relatio
+ n between <i>luminosity</i>\nand the <i>period</i> of <i>Cepheid variables
+ </i>. This provided astronomers with the\nfirst tools to measure distances
+  of faraway galaxies.</p><p>https://en.wikipedia.org/wiki/Henrietta_Swan_L
+ eavitt<br>https://en.wikipedia.org/wiki/Period-luminosity_relation</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Henrietta Swan Leavitt's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Henrietta_Swan_Leavitt
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Henrietta Swan Leavitt,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:18710830T000000Z
+UID:18710830-Ernest-Rutherford
+DTSTART;VALUE=DATE:18710830
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>August 30th\, 1871</b>: <i>Ernest Rutherford&#
+ 39\;s</i> Birthday.<p>A New Zealand physicist and the father of nuclear ph
+ ysics and nuclear chemistry. He discovered the <i>proton</i>\, and the <i>
+ alpha</i> and <i>beta particle</i>. He also achieved the first laboratory 
+ transformation of one element into another element.</p><p>https://en.wikip
+ edia.org/wiki/Ernest_Rutherford<br>https://en.wikipedia.org/wiki/Nuclear_p
+ hysics</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Ernest Rutherford's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Ernest_Rutherford
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Ernest Rutherford,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:18740425T000000Z
+UID:18740425-Guglielmo-Marconi
+DTSTART;VALUE=DATE:18740425
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>April 25th\, 1874</b>: <i>Guglielmo Marconi&#3
+ 9\;s</i> Birthday.<p>An Italian inventor and electrical engineer. Best kno
+ wn for pioneering work on\nlong-distance radio transmissions and <i>radiot
+ elegraphy</i>.</p><p>https://en.wikipedia.org/wiki/Guglielmo_Marconi</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Guglielmo Marconi's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Guglielmo_Marconi
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Guglielmo Marconi,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:18760310T000000Z
+UID:18760310-Telephone
+DTSTART;VALUE=DATE:18760310
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>March 10th\, 1876</b>: Telephone. <p>Alexander
+  Graham Bell made the first telephone call to his assistent\, Thomas Watso
+ n.</p><p>https://en.wikipedia.org/wiki/History_of_the_telephone</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Telephone (Inventions) 💡
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/History_of_the_telephone
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Inventions,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:18781107T000000Z
+UID:18781107-Lise-Meitner
+DTSTART;VALUE=DATE:18781107
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>November 7th\, 1878</b>: <i>Lise Meitner&#39\;
+ s</i> Birthday.<p>An Austrian-Swedish physicist who discovered the element
+  protactinium and\n<i>nuclear fission</i>.</p><p>https://en.wikipedia.org/
+ wiki/Lise_Meitner</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Lise Meitner's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Lise_Meitner
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Lise Meitner,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:18790314T000000Z
+UID:18790314-Albert-Einstein
+DTSTART;VALUE=DATE:18790314
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>March 14th\, 1879</b>: <i>Albert Einstein&#39\
+ ;s</i> Birthday.<p>A German-born theoretical physicist who developed the <
+ i>theory of relativity</i> and\nthe <i>mass-energy equivalence</i>.</p><p>
+ https://en.wikipedia.org/wiki/Albert_Einstein</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Albert Einstein's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Albert_Einstein
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Albert Einstein,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:18791104T000000Z
+UID:18791104-Light-bulb
+DTSTART;VALUE=DATE:18791104
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>November 4th\, 1879</b>: Light bulb. <p><b>Tho
+ mas Edison</b> filed a U.S. patent for an electric lamp using a carbon fil
+ ament.</p><p>https://en.wikipedia.org/wiki/Electric_light<br>https://www.b
+ ulbs.com/learning/history.aspx</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Light bulb (Inventions) 💡
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Electric_light
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Inventions,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:18801101T000000Z
+UID:18801101-Alfred-Wegener
+DTSTART;VALUE=DATE:18801101
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>November 1st\, 1880</b>: <i>Alfred Wegener&#39
+ \;s</i> Birthday.<p>A German polar researcher\, geophysicist and meteorolo
+ gist. He is most known for the hypothesis of <i>continental drift</i> that
+  suggests that the continents are slowly drifting around the earth.</p><p>
+ https://en.wikipedia.org/wiki/Alfred_Wegener<br>https://en.wikipedia.org/w
+ iki/Continental_drift</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Alfred Wegener's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Alfred_Wegener
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Alfred Wegener,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:18810806T000000Z
+UID:18810806-Alexander-Fleming
+DTSTART;VALUE=DATE:18810806
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>August 6th\, 1881</b>: <i>Alexander Fleming&#3
+ 9\;s</i> Birthday.<p>A Scottish microbiologist and physician. He is best k
+ nown for his discovery of\n<i>Penicillin G</i> which is the world&#39\;s f
+ irst broad and effective antibiotic\nsubstance.</p><p>https://en.wikipedia
+ .org/wiki/Alexander_Fleming</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Alexander Fleming's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Alexander_Fleming
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Alexander Fleming,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:18820323T000000Z
+UID:18820323-Emmy-Noether
+DTSTART;VALUE=DATE:18820323
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>March 23rd\, 1882</b>: <i>Emmy Noether&#39\;s<
+ /i> Birthday.<p>A German mathematician who made contributions to physics a
+ nd abstract algebra.\nShe is most known for <i>Noether&#39\;s theorem</i> 
+ which can be summarized as &quot\;If a\nsystem has a continuous symmetry p
+ roperty\, then there are corresponding\nquantities whose values are conser
+ ved in time&quot\;.</p><p>https://en.wikipedia.org/wiki/Emmy_Noether<br>ht
+ tps://en.wikipedia.org/wiki/Noether%27s_theorem</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Emmy Noether's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Emmy_Noether
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Emmy Noether,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:18851007T000000Z
+UID:18851007-Niels-Bohr
+DTSTART;VALUE=DATE:18851007
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>October 7th\, 1885</b>: <i>Niels Bohr&#39\;s</
+ i> Birthday.<p>A Danish Physicist most known for his contributions to the 
+ <i>atomic structure</i> and\nthe <i>quantum theory</i>.</p><p>https://en.w
+ ikipedia.org/wiki/Niels_Bohr</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Niels Bohr's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Niels_Bohr
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Niels Bohr,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:18860129T000000Z
+UID:18860129-Car
+DTSTART;VALUE=DATE:18860129
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>January 29th\, 1886</b>: Car. <p>Carl Benz app
+ lied for a patent for his &quot\;<i>vehicle powered by a gas engine</i>&qu
+ ot\;.</p><p>https://en.wikipedia.org/wiki/History_of_the_automobile</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Car (Inventions) 💡
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/History_of_the_automobile
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Inventions,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:18871123T000000Z
+UID:18871123-Henry-Moseley
+DTSTART;VALUE=DATE:18871123
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>November 23rd\, 1887</b>: <i>Henry Moseley&#39
+ \;s</i> Birthday.<p>An English physicist that every elements is uniquely d
+ etermined by the number of\nprotons. He invented the first atomic battery 
+ and established the organization\nprinciples of the periodic table and the
+ reby predicting the existence of four\nnew chemical elements.</p><p>https:
+ //en.wikipedia.org/wiki/Henry_Moseley<br>https://en.wikipedia.org/wiki/Per
+ iodic_table<br>https://en.wikipedia.org/wiki/Atomic_battery</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Henry Moseley's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Henry_Moseley
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Henry Moseley,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:18871222T000000Z
+UID:18871222-Srinivasa-Ramanujan
+DTSTART;VALUE=DATE:18871222
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>December 22nd\, 1887</b>: <i>Srinivasa Ramanuj
+ an&#39\;s</i> Birthday.<p>An Indian mathematician who made\, with almost n
+ o formal training in pure mathematics\, made significant contributions to 
+ number theory\, analysis\, infinite series and continued fractions. During
+  his short life\, he compiled thousands of mathematical identities and equ
+ ations.</p><p>https://en.wikipedia.org/wiki/Srinivasa_Ramanujan<br>https:/
+ /en.wikipedia.org/wiki/Ramanujan_prime<br>https://en.wikipedia.org/wiki/Ra
+ manujan_theta_function</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Srinivasa Ramanujan's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Srinivasa_Ramanujan
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Srinivasa Ramanujan,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:18881107T000000Z
+UID:18881107-Chandrasekhara-Venkata-Raman
+DTSTART;VALUE=DATE:18881107
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>November 7th\, 1888</b>: <i>Chandrasekhara Ven
+ kata Raman&#39\;s</i> Birthday.<p>An Indian physicist known for the discov
+ ery that light can donate small amounts of energy to a molecule changing t
+ he color of  that light and letting the molecule vibrate. This can be used
+  to discover what molecule was hit by that light.</p><p>https://en.wikiped
+ ia.org/wiki/C._V._Raman</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Chandrasekhara Venkata Raman's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/C._V._Raman
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Chandrasekhara Venkata Raman,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:18891120T000000Z
+UID:18891120-Edwin-Hubble
+DTSTART;VALUE=DATE:18891120
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>November 20th\, 1889</b>: <i>Edwin Hubble&#39\
+ ;s</i> Birthday.<p>An American astronomer who made contributions to the fi
+ elds of <i>extragalactic\nastronomy</i> and <i>observational cosmology</i>
+ . He discovered that we live in a\nuniverse of many galaxies that are sepa
+ rated by large distances. He also\ndiscovered <i>Hubble&#39\;s law</i> (in
+ dependently with <b>Georges Lemaître</b>) that\nobserves that galaxies ar
+ e moving away from the earth.</p><p>https://en.wikipedia.org/wiki/Edwin_Hu
+ bble<br>https://en.wikipedia.org/wiki/Hubble%27s_law</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Edwin Hubble's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Edwin_Hubble
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Edwin Hubble,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:18900217T000000Z
+UID:18900217-Ronald-Fisher
+DTSTART;VALUE=DATE:18900217
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>February 17th\, 1890</b>: <i>Ronald Fisher&#39
+ \;s</i> Birthday.<p>A British statistician and geneticist. He made large c
+ ontributions to modern\nstatistics. He also used mathematics to combine <i
+ >Mendelian genetics</i> with\n<i>natural selection</i> which resulted in a
+  revival of <i>Darwinism</i>.</p><p>https://en.wikipedia.org/wiki/Ronald_F
+ isher</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Ronald Fisher's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Ronald_Fisher
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Ronald Fisher,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:18911020T000000Z
+UID:18911020-James-Chadwick
+DTSTART;VALUE=DATE:18911020
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>October 20th\, 1891</b>: <i>James Chadwick&#39
+ \;s</i> Birthday.<p>A British physicist who discovered the neutron. He wro
+ te the final draft of the\n<i>MAUD Report</i> that started research on the
+  <i>atomic bomb</i>. He also led the\nBritish team that worked on the <i>M
+ anhattan project</i>.</p><p>https://en.wikipedia.org/wiki/James_Chadwick<b
+ r>https://en.wikipedia.org/wiki/MAUD_Committee<br>https://en.wikipedia.org
+ /wiki/Manhattan_Project</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":James Chadwick's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/James_Chadwick
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":James Chadwick,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:18920103T000000Z
+UID:18920103-John-Tolkien
+DTSTART;VALUE=DATE:18920103
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>January 3rd\, 1892</b>: <i>John Tolkien&#39\;s
+ </i> Birthday.<p>An English fantasy writer and professor of English litera
+ ture and language. He wrote the the <i>Lord of the Rings</i> and the <i>Ho
+ bbit</i> novels.</p><p>https://en.wikipedia.org/wiki/J._R._R._Tolkien</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":John Tolkien's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/J._R._R._Tolkien
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":John Tolkien,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:18970302T000000Z
+UID:18970302-Radio
+DTSTART;VALUE=DATE:18970302
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>March 2nd\, 1897</b>: Radio. <p>the invention 
+ of the radio.</p><p>https://en.wikipedia.org/wiki/Invention_of_radio</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Radio (Inventions) 💡
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Invention_of_radio
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Inventions,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:18970912T000000Z
+UID:18970912-Irène-Joliot-Curie
+DTSTART;VALUE=DATE:18970912
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>September 12th\, 1897</b>: <i>Irène Joliot-Cu
+ rie&#39\;s</i> Birthday.<p>A French chemist and physicist and the daughter
+  of <b>Pierre Curie</b> and <b>Marie\nCurie</b>. She was awarded a Nobel p
+ rize in chemistry for the discovery of\n<i>artificial radioactivity</i>. S
+ table chemical elements are converted into\nradioactive ones. The radioact
+ ivity is then for example used in medical\nprocedures.</p><p>https://en.wi
+ kipedia.org/wiki/Ir%C3%A8ne_Joliot-Curie<br>https://en.wikipedia.org/wiki/
+ Induced_radioactivity</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Irène Joliot-Curie's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Ir%C3%A8ne_Joliot-Curie
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Irène Joliot-Curie,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:19000510T000000Z
+UID:19000510-Cecilia-Payne-Gaposchkin
+DTSTART;VALUE=DATE:19000510
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>May 10th\, 1900</b>: <i>Cecilia Payne-Gaposchk
+ in&#39\;s</i> Birthday.<p>A British-American astronomer and astrophysicist
+  most known for developing a\ntheory that stars mainly consist out of hydr
+ ogen and helium. Observations\neventually proved she was correct.</p><p>ht
+ tps://en.wikipedia.org/wiki/Cecilia_Payne-Gaposchkin</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Cecilia Payne-Gaposchkin's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Cecilia_Payne-Gaposchkin
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Cecilia Payne-Gaposchkin,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:19010228T000000Z
+UID:19010228-Linus-Pauling
+DTSTART;VALUE=DATE:19010228
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>February 28th\, 1901</b>: <i>Linus Pauling&#39
+ \;s</i> Birthday.<p>An American biochemist and chemist and winner of the N
+ obel Prize in Chemistry in 1954. He was one of the founders of quantum che
+ mistry and molecular biology.</p><p>https://en.wikipedia.org/wiki/Linus_Pa
+ uling</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Linus Pauling's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Linus_Pauling
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Linus Pauling,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:19020616T000000Z
+UID:19020616-Barbara-McClintock
+DTSTART;VALUE=DATE:19020616
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>June 16th\, 1902</b>: <i>Barbara McClintock&#3
+ 9\;s</i> Birthday.<p>An American cytogeneticist who developed a technique 
+ to visualize <i>maize\nchromosomes</i>. She discovered <i>genetic recombin
+ ation</i> by <i>chromosomal crossover</i>\nduring the <i>meiosis</i> phase
+  and <i>transposition</i> where genes can move within a\nchromosome.</p><p
+ >https://en.wikipedia.org/wiki/Barbara_McClintock<br>https://en.wikipedia.
+ org/wiki/Chromosomal_crossover<br>https://en.wikipedia.org/wiki/Transposab
+ le_element</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Barbara McClintock's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Barbara_McClintock
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Barbara McClintock,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:19031217T000000Z
+UID:19031217-Airplane
+DTSTART;VALUE=DATE:19031217
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>December 17th\, 1903</b>: Airplane. <p>The fir
+ st airplane flights are made on December 17\, 1903 by the <b>Wright</b> br
+ others.</p><p>https://en.wikipedia.org/wiki/Airplane<br>https://airandspac
+ e.si.edu/exhibitions/wright-brothers/online/fly/1903/</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Airplane (Inventions) 💡
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Airplane
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Inventions,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:19040320T000000Z
+UID:19040320-Burrhus-Frederic-Skinner
+DTSTART;VALUE=DATE:19040320
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>March 20th\, 1904</b>: <i>Burrhus Frederic Ski
+ nner&#39\;s</i> Birthday.<p>An American psychologist and pioneer in the fi
+ eld of behaviorism. He discovered the power of <i>positive reinforcement l
+ earning</i>.</p><p>https://en.wikipedia.org/wiki/B._F._Skinner</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Burrhus Frederic Skinner's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/B._F._Skinner
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Burrhus Frederic Skinner,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:19050811T000000Z
+UID:19050811-Erwin-Chargaff
+DTSTART;VALUE=DATE:19050811
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>August 11th\, 1905</b>: <i>Erwin Chargaff&#39\
+ ;s</i> Birthday.<p>An Austro-Hungarian-American <i>biochemist</i>. Through
+  careful experiments\, Chargaff\ndiscovered two rules that led to the disc
+ overy of the <i>double helix</i> structure\nof DNA.</p><p>https://en.wikip
+ edia.org/wiki/Erwin_Chargaff<br>https://en.wikipedia.org/wiki/Chargaff%27s
+ _rules</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Erwin Chargaff's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Erwin_Chargaff
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Erwin Chargaff,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:19061209T000000Z
+UID:19061209-Grace-Hopper
+DTSTART;VALUE=DATE:19061209
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>December 9th\, 1906</b>: <i>Grace Hopper&#39\;
+ s</i> Birthday.<p>An American navy rear admiral and pioneer in computer sc
+ ience. She was one of\nthe first programmers of the <i>Harvard Mark 1</i> 
+ computer\, developed a <i>linker</i> and\npopularized <i>machine-independe
+ nt programming languages</i> which lead to the\ndevelopment of <i>COBOL</i
+ >.</p><p>https://en.wikipedia.org/wiki/Grace_Hopper</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Grace Hopper's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Grace_Hopper
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Grace Hopper,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:19070527T000000Z
+UID:19070527-Rachel-Carson
+DTSTART;VALUE=DATE:19070527
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>May 27th\, 1907</b>: <i>Rachel Carson&#39\;s</
+ i> Birthday.<p>An American marine biologist who wrote the book <i>Silent S
+ pring</i> which advanced\nglobal awareness about <i>environmental conserva
+ tion</i>.</p><p>https://en.wikipedia.org/wiki/Rachel_Carson<br>https://en.
+ wikipedia.org/wiki/Silent_Spring</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Rachel Carson's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Rachel_Carson
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Rachel Carson,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:19100611T000000Z
+UID:19100611-Jacques-Cousteau
+DTSTART;VALUE=DATE:19100611
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>June 11th\, 1910</b>: <i>Jacques Cousteau&#39\
+ ;s</i> Birthday.<p>A French innovator and scientist who studied the sea. H
+ e was a pioneer in <i>marine\nconservation</i> and co-developed the <i>Aqu
+ a-Lung</i>.</p><p>https://en.wikipedia.org/wiki/Jacques_Cousteau<br>https:
+ //en.wikipedia.org/wiki/Aqua-Lung</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Jacques Cousteau's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Jacques_Cousteau
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Jacques Cousteau,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:19101019T000000Z
+UID:19101019-Subrahmanyan-Chandrasekhar
+DTSTART;VALUE=DATE:19101019
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>October 19th\, 1910</b>: <i>Subrahmanyan Chand
+ rasekhar&#39\;s</i> Birthday.<p>An Indian-American astrophysicist who did 
+ research on the evolution of stars. He\ndiscovered that massive stars can 
+ collapse under their own gravity and reach\ninfinite density. These collap
+ sed stars are called <i>black holes</i>.</p><p>https://en.wikipedia.org/wi
+ ki/Subrahmanyan_Chandrasekhar<br>https://en.wikipedia.org/wiki/Black_hole<
+ /p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Subrahmanyan Chandrasekhar's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Subrahmanyan_Chandrasekhar
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Subrahmanyan Chandrasekhar,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:19110613T000000Z
+UID:19110613-Luis-Walter-Alvarez
+DTSTART;VALUE=DATE:19110613
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>June 13th\, 1911</b>: <i>Luis Walter Alvarez&#
+ 39\;s</i> Birthday.<p>An American experimental physicist who made improvem
+ ents on the <i>hydrogen bubble\nchamber</i>. He also introduced the <i>Alv
+ arez hypothesis</i> which proposes that the\ndinosaurs were wiped out by t
+ he result of an asteroid impact.</p><p>https://en.wikipedia.org/wiki/Luis_
+ Walter_Alvarez<br>https://en.wikipedia.org/wiki/Alvarez_hypothesis</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Luis Walter Alvarez's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Luis_Walter_Alvarez
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Luis Walter Alvarez,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:19120623T000000Z
+UID:19120623-Alan-Turing
+DTSTART;VALUE=DATE:19120623
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>June 23rd\, 1912</b>: <i>Alan Turing&#39\;s</i
+ > Birthday.<p>An English mathematician\, cryptanalyst\, and computer scien
+ tist pioneer. <b>Turing</b> had a lot of influence in the field of <i>theo
+ retical computer science</i>.</p><p>https://en.wikipedia.org/wiki/Alan_Tur
+ ing</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Alan Turing's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Alan_Turing
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Alan Turing,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:19180511T000000Z
+UID:19180511-Richard-Feynman
+DTSTART;VALUE=DATE:19180511
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>May 11th\, 1918</b>: <i>Richard Feynman&#39\;s
+ </i> Birthday.<p>An American theoretical physicist known for his work in q
+ uantum mechanics and\nhis work on the <i>Manhattan Project</i>.</p><p>http
+ s://en.wikipedia.org/wiki/Richard_Feynman</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Richard Feynman's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Richard_Feynman
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Richard Feynman,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:19200102T000000Z
+UID:19200102-Isaac-Asimov
+DTSTART;VALUE=DATE:19200102
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>January 2nd\, 1920</b>: <i>Isaac Asimov&#39\;s
+ </i> Birthday.<p>An American science fiction writer and professor in bioch
+ emistry.</p><p>https://en.wikipedia.org/wiki/Isaac_Asimov</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Isaac Asimov's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Isaac_Asimov
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Isaac Asimov,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:19200725T000000Z
+UID:19200725-Rosalind-Franklin
+DTSTART;VALUE=DATE:19200725
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>July 25th\, 1920</b>: <i>Rosalind Franklin&#39
+ \;s</i> Birthday.<p>An English chemist and X-ray crystallographer who made
+  significant contributions\nto understanding the molecular structure of <i
+ >DNA</i>\, <i>RNA</i>\, <i>viruses</i>\, <i>coal</i> and\n<i>graphite</i>.
+ </p><p>https://en.wikipedia.org/wiki/Rosalind_Franklin</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Rosalind Franklin's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Rosalind_Franklin
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Rosalind Franklin,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:19221001T000000Z
+UID:19221001-Chen-Ning-Yang
+DTSTART;VALUE=DATE:19221001
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>October 1st\, 1922</b>: <i>Chen-Ning Yang&#39\
+ ;s</i> Birthday.<p>A Chinese theoretical physicist who made significant co
+ ntributions to statistical mechanics and gauge theory. He is most known fo
+ r the <i>Yang-Mills theory</i>.</p><p>https://en.wikipedia.org/wiki/Yang_C
+ hen-Ning<br>https://en.wikipedia.org/wiki/Yang%E2%80%93Mills_theory</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Chen-Ning Yang's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Yang_Chen-Ning
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Chen-Ning Yang,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:19221228T000000Z
+UID:19221228-Stan-Lee
+DTSTART;VALUE=DATE:19221228
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>December 28th\, 1922</b>: <i>Stan Lee&#39\;s</
+ i> Birthday.<p>An American comic book writer most known for his collaborat
+ ion with other artists in the co-creation of <i>Spider-Man</i>\, the <i>Av
+ engers</i>\, etc.</p><p>https://en.wikipedia.org/wiki/Stan_Lee</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Stan Lee's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Stan_Lee
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Stan Lee,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:19230731T000000Z
+UID:19230731-Stephanie-Kwolek
+DTSTART;VALUE=DATE:19230731
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>July 31st\, 1923</b>: <i>Stephanie Kwolek&#39\
+ ;s</i> Birthday.<p>An American chemist who discovered <i>Kevlar</i>\, a he
+ at-resistant and strong <i>synthetic\nfiber</i>. <i>Kevlar</i> is used in 
+ body armor and tennis racket strings.</p><p>https://en.wikipedia.org/wiki/
+ Stephanie_Kwolek<br>https://en.wikipedia.org/wiki/Kevlar</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Stephanie Kwolek's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Stephanie_Kwolek
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Stephanie Kwolek,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:19260316T000000Z
+UID:19260316-Rocketry
+DTSTART;VALUE=DATE:19260316
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>March 16th\, 1926</b>: Rocketry. <p>the invent
+ ion of the liquid-propellant rocket.</p><p>https://airandspace.si.edu/stor
+ ies/editorial/robert-goddard-and-first-liquid-propellant-rocket</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Rocketry (Inventions) 💡
+TRANSP:TRANSPARENT
+URL:https://airandspace.si.edu/stories/editorial/robert-goddard-and-first-l
+ iquid-propellant-rocket
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Inventions,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:19280428T000000Z
+UID:19280428-Gene-Shoemaker
+DTSTART;VALUE=DATE:19280428
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>April 28th\, 1928</b>: <i>Gene Shoemaker&#39\;
+ s</i> Birthday.<p>An American geologist and one of the founders of astroge
+ ology. He proved that large craters on Earth were caused by collisions wit
+ h asteroids instead of volcanic activity.</p><p>https://en.wikipedia.org/w
+ iki/Eugene_Merle_Shoemaker</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Gene Shoemaker's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Eugene_Merle_Shoemaker
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Gene Shoemaker,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:19280928T000000Z
+UID:19280928-Penicillin
+DTSTART;VALUE=DATE:19280928
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>September 28th\, 1928</b>: Penicillin. <p>the 
+ discovery of <i>penicillin</i> by <b>Alexander Fleming</b> (1881-1955).</p
+ ><p>https://www.pbs.org/newshour/health/the-real-story-behind-the-worlds-f
+ irst-antibiotic<br>https://en.wikipedia.org/wiki/Antibiotic</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Penicillin (Inventions) 💡
+TRANSP:TRANSPARENT
+URL:https://www.pbs.org/newshour/health/the-real-story-behind-the-worlds-fi
+ rst-antibiotic
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Inventions,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:19300511T000000Z
+UID:19300511-Edsger-W--Dijkstra
+DTSTART;VALUE=DATE:19300511
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>May 11th\, 1930</b>: <i>Edsger W. Dijkstra&#39
+ \;s</i> Birthday.<p>A Dutch programmer and pioneer in computer science. He
+  is well known for a\nseries of algorithms including <i>Dijkstra&#39\;s al
+ gorithm</i>\, <i>Banker&#39\;s algorithm</i>\,\n<i>smoothsort</i>\, etc.</
+ p><p>https://en.wikipedia.org/wiki/Edsger_W._Dijkstra</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Edsger W. Dijkstra's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Edsger_W._Dijkstra
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Edsger W. Dijkstra,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:19300528T000000Z
+UID:19300528-Frank-Drake
+DTSTART;VALUE=DATE:19300528
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>May 28th\, 1930</b>: <i>Frank Drake&#39\;s</i>
+  Birthday.<p>An American astronomer and astrophysicist. He is best known f
+ or the search of\n<i>extraterrestrial life</i> and developing the <i>Drake
+  equation</i> that defines the\nprobability of extraterrestrial life.</p><
+ p>https://en.wikipedia.org/wiki/Frank_Drake<br>https://en.wikipedia.org/wi
+ ki/Drake_equation</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Frank Drake's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Frank_Drake
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Frank Drake,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:19310117T000000Z
+UID:19310117-James-Earl-Jones
+DTSTART;VALUE=DATE:19310117
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>January 17th\, 1931</b>: <i>James Earl Jones&#
+ 39\;</i> Birthday.<p>An American actor who is best known as the voice of <
+ i>Darth Vader</i> in <i>Star Wars</i> and <i>Mufasa</i> in <i>The Lion Kin
+ g</i>.</p><p>https://en.wikipedia.org/wiki/James_Earl_Jones</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":James Earl Jones' Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/James_Earl_Jones
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":James Earl Jones,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:19310326T000000Z
+UID:19310326-Leonard-Nimoy-Leonard-Nimoy
+DTSTART;VALUE=DATE:19310326
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>March 26th\, 1931</b>: <i>Leonard Nimoy\nLeona
+ rd Nimoy&#39\;s</i> Birthday.<p>An American actor\, author and songwriter.
+  He is best known for playing <i>Spock</i>\nin the <i>Star Trek</i> series
+ .</p><p>https://en.wikipedia.org/wiki/Leonard_Nimoy</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Leonard Nimoy\nLeonard Nimoy's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Leonard_Nimoy
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Leonard Nimoy\nLeonard Nimoy,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:19340403T000000Z
+UID:19340403-Jane-Goodall
+DTSTART;VALUE=DATE:19340403
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>April 3rd\, 1934</b>: <i>Jane Goodall&#39\;s</
+ i> Birthday.<p>An English primatologist and anthropologist. She is conside
+ red one of the\nforemost experts on chimpanzees. She founded the <i>Jane G
+ oodall Institute</i>.</p><p>https://en.wikipedia.org/wiki/Jane_Goodall<br>
+ https://en.wikipedia.org/wiki/Jane_Goodall_Institute</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Jane Goodall's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Jane_Goodall
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Jane Goodall,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:19370420T000000Z
+UID:19370420-George-Takei
+DTSTART;VALUE=DATE:19370420
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>April 20th\, 1937</b>: <i>George Takei&#39\;s<
+ /i> Birthday.<p>An American actor and author who played the role of <i>Hik
+ aru Sulu</i> in the television series of <i>Star Trek</i> and the original
+  series movies.</p><p>https://en.wikipedia.org/wiki/George_Takei<br>https:
+ //en.wikipedia.org/wiki/Hikaru_Sulu</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":George Takei's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/George_Takei
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":George Takei,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:19380110T000000Z
+UID:19380110-Donald-Knuth
+DTSTART;VALUE=DATE:19380110
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>January 10th\, 1938</b>: <i>Donald Knuth&#39\;
+ s</i> Birthday.<p>An American mathematician and computer scientist pioneer
+ . He is known for his\nmulti-volume work <i>The Art of Computer Programmin
+ g</i>.</p><p>https://en.wikipedia.org/wiki/Donald_Knuth</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Donald Knuth's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Donald_Knuth
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Donald Knuth,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:19390125T000000Z
+UID:19390125-Nuclear-fission
+DTSTART;VALUE=DATE:19390125
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>January 25th\, 1939</b>: Nuclear fission. <p>t
+ he first <i>nuclear fission</i> experiment at <i>Columbia University</i>.<
+ /p><p>https://en.wikipedia.org/wiki/Nuclear_fission</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Nuclear fission (Inventions) 💡
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Nuclear_fission
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Inventions,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:19400310T000000Z
+UID:19400310-Chuck-Norris
+DTSTART;VALUE=DATE:19400310
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>March 10th\, 1940</b>: <i>Chuck Norris&#39\;</
+ i> Birthday.<p>An American martial artist\, screen writer and film produce
+ r. He served in the\n<i>United States Air Force</i>.</p><p>https://en.wiki
+ pedia.org/wiki/Chuck_Norris</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Chuck Norris' Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Chuck_Norris
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Chuck Norris,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:19420108T000000Z
+UID:19420108-Stephen-Hawking
+DTSTART;VALUE=DATE:19420108
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>January 8th\, 1942</b>: <i>Stephen Hawking&#39
+ \;s</i> Birthday.<p>An English theoretical physicist\, cosmologist. He is 
+ known for extending the\n<i>singularity theorem</i> and work on black hole
+ s.</p><p>https://en.wikipedia.org/wiki/Stephen_Hawking</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Stephen Hawking's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Stephen_Hawking
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Stephen Hawking,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:19440514T000000Z
+UID:19440514-George-Lucas
+DTSTART;VALUE=DATE:19440514
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>May 14th\, 1944</b>: <i>George Lucas&#39\;</i>
+  Birthday.<p>An American film director\, best known for the <i>Star Wars</
+ i> and <i>Indiana Jones</i>\nseries.</p><p>https://en.wikipedia.org/wiki/G
+ eorge_Lucas</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":George Lucas' Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/George_Lucas
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":George Lucas,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:19460615T000000Z
+UID:19460615-Jack-Horner
+DTSTART;VALUE=DATE:19460615
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>June 15th\, 1946</b>: <i>Jack Horner&#39\;s</i
+ > Birthday.<p>An American paleontologist for discovering a dinosaur specie
+ s <i>Maiasaura</i> that\ncared for its youngs. Horner also served as techn
+ ical advisor for all the\n<i>Jurassic Park</i> movies.</p><p>https://en.wi
+ kipedia.org/wiki/Jack_Horner_(paleontologist)<br>https://en.wikipedia.org/
+ wiki/Maiasaura</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Jack Horner's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Jack_Horner_(paleontologist)
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Jack Horner,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:19480428T000000Z
+UID:19480428-Terry-Pratchett
+DTSTART;VALUE=DATE:19480428
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>April 28th\, 1948</b>: <i>Terry Pratchett&#39\
+ ;s</i> Birthday.<p>An English author and humorist. Pratchett is best known
+  for the <i>Discworld</i>\nseries of 41 novels.</p><p>https://en.wikipedia
+ .org/wiki/Terry_Pratchett</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Terry Pratchett's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Terry_Pratchett
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Terry Pratchett,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:19500811T000000Z
+UID:19500811-Steve-Wozniak
+DTSTART;VALUE=DATE:19500811
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>August 11th\, 1950</b>: <i>Steve Wozniak&#39\;
+ s</i> Birthday.<p>An American electronics engineer\, programmer and person
+ al computer pioneer.\nTogether with <b>Steve Jobs</b> he co-founded <i>App
+ le Inc.</i>.</p><p>https://en.wikipedia.org/wiki/Steve_Wozniak</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Steve Wozniak's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Steve_Wozniak
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Steve Wozniak,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:19510925T000000Z
+UID:19510925-Mark-Hamill
+DTSTART;VALUE=DATE:19510925
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>September 25th\, 1951</b>: <i>Mark Hamill&#39\
+ ;s</i> Birthday.<p>An American actor best known for his role as <i>Luke Sk
+ ywalker</i> in the <i>Star Wars</i> franchise and the voice of <i>the Joke
+ r</i> in <i>Batman: the Animated Series</i>.</p><p>https://en.wikipedia.or
+ g/wiki/Mark_Hamill<br>https://en.wikipedia.org/wiki/Luke_Skywalker</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Mark Hamill's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Mark_Hamill
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Mark Hamill,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:19520311T000000Z
+UID:19520311-Douglas-Adams
+DTSTART;VALUE=DATE:19520311
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>March 11th\, 1952</b>: <i>Douglas Adams&#39\;<
+ /i> Birthday.<p>An English author\, humorist and screenwriter known as aut
+ hor of <i>The\nHitchhiker&#39\;s Guide to the Galaxy</i> in 1978.</p><p>ht
+ tps://en.wikipedia.org/wiki/Douglas_Adams</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Douglas Adams' Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Douglas_Adams
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Douglas Adams,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:19530316T000000Z
+UID:19530316-Richard-Stallman
+DTSTART;VALUE=DATE:19530316
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>March 16th\, 1953</b>: <i>Richard Stallman&#39
+ \;s</i> Birthday.<p>An American <i>free software</i> movement activist\, a
+ nd hacker in <i>MIT</i>&#39\;s AI lab.\nStallman announced the <i>GNU Proj
+ ect</i> and founded the <i>Free Software Foundation</i>.</p><p>https://en.
+ wikipedia.org/wiki/Richard_Stallman</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Richard Stallman's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Richard_Stallman
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Richard Stallman,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:19550224T000000Z
+UID:19550224-Steve-Jobs
+DTSTART;VALUE=DATE:19550224
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>February 24th\, 1955</b>: <i>Steve Jobs&#39\;<
+ /i> Birthday.<p>An American business man and personal computer pioneer. To
+ gether with <b>Steve\nWozniak</b>\, Jobs founded <i>Apple Inc.</i>. He als
+ o founded <i>NeXT Inc.</i> and funded the\nspin-off to the <i>The Graphics
+  Group</i> (later <i>Pixar</i>).</p><p>https://en.wikipedia.org/wiki/Steve
+ _Jobs</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Steve Jobs' Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Steve_Jobs
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Steve Jobs,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:19550608T000000Z
+UID:19550608-Tim-Berners-Lee
+DTSTART;VALUE=DATE:19550608
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>June 8th\, 1955</b>: <i>Tim Berners-Lee&#39\;s
+ </i> Birthday.<p>An English computer scientist best known as the inventor 
+ of the <i>World Wide Web</i>. He proposed\na management system for communi
+ cation and implemented the <i>Hypertext Transfer Protocol (HTTP)</i>.</p><
+ p>https://en.wikipedia.org/wiki/Tim_Berners-Lee</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Tim Berners-Lee's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Tim_Berners-Lee
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Tim Berners-Lee,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:19551028T000000Z
+UID:19551028-Bill-Gates
+DTSTART;VALUE=DATE:19551028
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>October 28th\, 1955</b>: <i>Bill Gates&#39\;</
+ i> Birthday.<p>An American businessman\, author and the founder of the <i>
+ Microsoft Corporation</i>. In 1975 he founded <i>Microsoft</i> together wi
+ th <b>Paul Allan</b>.</p><p>https://en.wikipedia.org/wiki/Bill_Gates<br>ht
+ tps://en.wikipedia.org/wiki/Microsoft</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Bill Gates' Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Bill_Gates
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Bill Gates,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:19561021T000000Z
+UID:19561021-Carrie-Fisher
+DTSTART;VALUE=DATE:19561021
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>October 21st\, 1956</b>: <i>Carrie Fisher&#39\
+ ;s</i> Birthday.<p>An American actress and writer. She was the daughter of
+  <i>Debbie Reynolds</i> and <i>Eddie Fisher</i>. She was best known for he
+ r role as <i>Princess Leia</i> in the <i>Star Wars</i> franchise.</p><p>ht
+ tps://en.wikipedia.org/wiki/Carrie_Fisher<br>https://en.wikipedia.org/wiki
+ /Princess_Leia</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Carrie Fisher's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Carrie_Fisher
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Carrie Fisher,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:19590807T000000Z
+UID:19590807-Wallace-s-Birthday
+DTSTART;VALUE=DATE:19590807
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>August 7th\, 1959</b>: Wallace&#39\;s Birthday
+ . <p><b>Wallace</b> was born.</p><p>https://wallaceandgromit.fandom.com/wi
+ ki/Wallace</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Wallace's Birthday (Wallace and Gromit) 🦴
+TRANSP:TRANSPARENT
+URL:https://wallaceandgromit.fandom.com/wiki/Wallace
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Wallace and Gromit,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:19620313T000000Z
+UID:19620313-Denzel-Crocker-s-Birthday
+DTSTART;VALUE=DATE:19620313
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>March 13th\, 1962</b>: Denzel Crocker&#39\;s B
+ irthday. <p><b>Denzel Crocker</b>&#39\;s birthday.</p><p>https://fairlyodd
+ parents.fandom.com/wiki/Denzel_Crocker<br>https://fairlyoddparents.fandom.
+ com/wiki/The_Secret_Origin_of_Denzel_Crocker!</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Denzel Crocker's Birthday (The Fairly OddParents) 
+ 🧙
+TRANSP:TRANSPARENT
+URL:https://fairlyoddparents.fandom.com/wiki/Denzel_Crocker
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":The Fairly OddParents,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:19650731T000000Z
+UID:19650731-Joanne-Rowling
+DTSTART;VALUE=DATE:19650731
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>July 31st\, 1965</b>: <i>Joanne Rowling&#39\;s
+ </i> Birthday.<p>A British author\, best known for writing the <i>Harry Po
+ tter</i> fantasy series. She\nalso writes crime fiction under the pseudony
+ m <b>Robert Galbraith</b>.</p><p>https://en.wikipedia.org/wiki/J._K._Rowli
+ ng</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Joanne Rowling's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/J._K._Rowling
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Joanne Rowling,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:19710628T000000Z
+UID:19710628-Elon-Musk
+DTSTART;VALUE=DATE:19710628
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>June 28th\, 1971</b>: <i>Elon Musk&#39\;s</i> 
+ Birthday.<p>A South African-born Canadian-American businessman\, inventor 
+ and engineer. He is the CEO of Tesla and SpaceX.</p><p>https://en.wikipedi
+ a.org/wiki/Elon_Musk</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Elon Musk's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Elon_Musk
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Elon Musk,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:19720315T000000Z
+UID:19720315-Denzel-Crocker-Day
+DTSTART;VALUE=DATE:19720315
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>March 15th\, 1972</b>: Denzel Crocker Day. <p>
+ On this day <b>Denzel Crocker</b> accidentally exposed his fairies.</p><p>
+ https://fairlyoddparents.fandom.com/wiki/Denzel_Crocker</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Denzel Crocker Day (The Fairly OddParents) 🧙
+TRANSP:TRANSPARENT
+URL:https://fairlyoddparents.fandom.com/wiki/Denzel_Crocker
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":The Fairly OddParents,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:19720729T000000Z
+UID:19720729-Wil-Wheaton
+DTSTART;VALUE=DATE:19720729
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>July 29th\, 1972</b>: <i>Wil Wheaton&#39\;s</i
+ > Birthday.<p>An American actor\, blogger and writer who played <i>Wesley 
+ Crusher</i> in the television series <i>Star Trek: The Next Generation</i>
+ . He also played himself in <i>the Big Bang Theory</i>. He introduced <i>D
+ on&#39\;t Be A Dick Day</i> on July 29th\, his birthday.</p><p>https://en.
+ wikipedia.org/wiki/Wil_Wheaton</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Wil Wheaton's Birthday 🎂
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Wil_Wheaton
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Wil Wheaton,birthday,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:19730522T000000Z
+UID:19730522-Ethernet
+DTSTART;VALUE=DATE:19730522
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>May 22nd\, 1973</b>: Ethernet. <p><b>Robert Me
+ tcalfe</b> invented <i>Ethernet</i>\, a standard to connect computers over
+  a short distance.</p><p>https://en.wikipedia.org/wiki/Robert_Metcalfe#Car
+ eer<br>https://en.wikipedia.org/wiki/Xerox_Alto</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Ethernet (Inventions) 💡
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Robert_Metcalfe#Career
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Inventions,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:19770525T000000Z
+UID:19770525-A-New-Hope-Day
+DTSTART;VALUE=DATE:19770525
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>May 25th\, 1977</b>: A New Hope Day. <p>one ce
+ lebrates the release of <i>Star Wars</i> (later retroactively titled <i>St
+ ar Wars: Episode IV - A New Hope</i>).</p><p>https://en.wikipedia.org/wiki
+ /Star_Wars_(film)</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":A New Hope Day (Star Wars) 🚀
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Star_Wars_(film)
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Star Wars,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:19791217T000000Z
+UID:19791217-Amy-Farrah-Fowler-s-Birthday
+DTSTART;VALUE=DATE:19791217
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>December 17th\, 1979</b>: Amy Farrah Fowler&#3
+ 9\;s Birthday. <p>https://bigbangtheory.fandom.com/wiki/The_Opening_Night_
+ Excitation<br>https://bigbangtheory.fandom.com/wiki/Amy_Farrah_Fowler</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Amy Farrah Fowler's Birthday (The Big Bang Theory) 
+ 💥
+TRANSP:TRANSPARENT
+URL:https://bigbangtheory.fandom.com/wiki/The_Opening_Night_Excitation
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":The Big Bang Theory,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:19800226T000000Z
+UID:19800226-Sheldon-Cooper-s-Birthday
+DTSTART;VALUE=DATE:19800226
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>February 26th\, 1980</b>: Sheldon Cooper&#39\;
+ s Birthday. <p>https://bigbangtheory.fandom.com/wiki/The_Celebration_Exper
+ imentation<br>https://bigbangtheory.fandom.com/wiki/Sheldon_Cooper</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Sheldon Cooper's Birthday (The Big Bang Theory) 💥
+TRANSP:TRANSPARENT
+URL:https://bigbangtheory.fandom.com/wiki/The_Celebration_Experimentation
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":The Big Bang Theory,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:19800517T000000Z
+UID:19800517-Leonard-Hofstadter-s-Birthday
+DTSTART;VALUE=DATE:19800517
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>May 17th\, 1980</b>: Leonard Hofstadter&#39\;s
+  Birthday. <p>https://bigbangtheory.fandom.com/wiki/The_Platonic_Permutati
+ on<br>https://bigbangtheory.fandom.com/wiki/Leonard_Hofstadter</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Leonard Hofstadter's Birthday (The Big Bang Theory) 
+ 💥
+TRANSP:TRANSPARENT
+URL:https://bigbangtheory.fandom.com/wiki/The_Platonic_Permutation
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":The Big Bang Theory,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:19800522T000000Z
+UID:19800522-Pack-Man-release
+DTSTART;VALUE=DATE:19800522
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>May 22nd\, 1980</b>: Pack-Man release. <p><i>N
+ amco</i> releases <i>Pac-Man</i>\, originally the game was named <i>Puck M
+ an</i>.</p><p>https://en.wikipedia.org/wiki/Pac-Man</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Pack-Man release (arcade games) 🕹️
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/Pac-Man
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":arcade games,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:19800731T000000Z
+UID:19800731-Harry-Potter-s-Birthday
+DTSTART;VALUE=DATE:19800731
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>July 31st\, 1980</b>: Harry Potter&#39\;s Birt
+ hday. <p>https://harrypotter.fandom.com/wiki/Harry_Potter<br>https://en.wi
+ kipedia.org/wiki/Harry_Potter_(character)</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Harry Potter's Birthday (Harry Potter) 🧙
+TRANSP:TRANSPARENT
+URL:https://harrypotter.fandom.com/wiki/Harry_Potter
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Harry Potter,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:19810812T000000Z
+UID:19810812-IBM-PC-Day
+DTSTART;VALUE=DATE:19810812
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>August 12th\, 1981</b>: IBM/PC Day. <p>The <i>
+ IBM Personal Computer</i> (model 5150) is the first computer released in t
+ he IBM PC model line together with the <i>IBM PC compatible standard</i>.<
+ /p><p>https://en.wikipedia.org/wiki/IBM_Personal_Computer</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":IBM/PC Day (Inventions) 💡
+TRANSP:TRANSPARENT
+URL:https://en.wikipedia.org/wiki/IBM_Personal_Computer
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Inventions,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:19851202T000000Z
+UID:19851202-Penny-Hofstadter-s-Birthday
+DTSTART;VALUE=DATE:19851202
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>December 2nd\, 1985</b>: Penny Hofstadter&#39\
+ ;s Birthday. <p>https://bigbangtheory.fandom.com/wiki/Penny<br>https://big
+ bangtheory.fandom.com/wiki/The_Platonic_Permutation</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Penny Hofstadter's Birthday (The Big Bang Theory) 
+ 💥
+TRANSP:TRANSPARENT
+URL:https://bigbangtheory.fandom.com/wiki/Penny
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":The Big Bang Theory,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:19920321T000000Z
+UID:19920321-Timmy-Turner-s-Birthday
+DTSTART;VALUE=DATE:19920321
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>March 21st\, 1992</b>: Timmy Turner&#39\;s Bir
+ thday. <p>In <i>The Secret Origin of Denzel Crocker!</i> it is revealed th
+ at <b>Timmy Turner</b> is born on March 21\, 1992.</p><p>https://fairlyodd
+ parents.fandom.com/wiki/Timmy_Turner</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":Timmy Turner's Birthday (The Fairly OddParents) 🧙
+TRANSP:TRANSPARENT
+URL:https://fairlyoddparents.fandom.com/wiki/Timmy_Turner
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":The Fairly OddParents,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:19980502T000000Z
+UID:19980502-The-Battle-of-Hogwarts
+DTSTART;VALUE=DATE:19980502
+CREATED:20220620T194857Z
+DESCRIPTION;LANGUAGE="EN":<b>May 2nd\, 1998</b>: The Battle of Hogwarts. <p
+ >on this day a magical battle around Hogwarts takes place where several pe
+ ople were killed including <b>Lord Voldemort</b>.</p><p>https://harrypotte
+ r.fandom.com/wiki/Battle_of_Hogwarts<br>https://youtu.be/Ij97LWo0I7s</p>
+LAST-MODIFIED:20220620T194857Z
+STATUS:CONFIRMED
+SUMMARY;LANGUAGE="EN":The Battle of Hogwarts (Harry Potter) 🧙
+TRANSP:TRANSPARENT
+URL:https://harrypotter.fandom.com/wiki/Battle_of_Hogwarts
+RRULE:FREQ=YEARLY
+CATEGORIES;LANGUAGE="EN":Harry Potter,geek
+COMMENT;ALTREP="https://github.com/hapytex/geek-calendar";LANGUAGE="EN":Gen
+ erated by geek-calendar
+END:VEVENT
+END:VCALENDAR
