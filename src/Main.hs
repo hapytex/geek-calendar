@@ -1,7 +1,7 @@
 module Main where
 
 import qualified Data.ByteString.Lazy as B
-import Data.Default(def)
+import Data.Default.Class(def)
 import Data.Time.Clock(getCurrentTime)
 
 import Geek.Data

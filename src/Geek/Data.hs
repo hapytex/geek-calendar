@@ -3,7 +3,7 @@
 module Geek.Data where
 
 import Data.Char(isAlphaNum)
-import Data.Default(def)
+import Data.Default.Class(def)
 import Data.Foldable(toList)
 import Data.List(intersperse)
 import qualified Data.Map.Strict as M
